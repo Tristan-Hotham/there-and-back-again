@@ -1,0 +1,1142 @@
+{
+ "n_journeys": 43,
+ "year_first": -599.5,
+ "year_last": 1947.5997716894976,
+ "span_years": 2547,
+ "grade_counts": {
+  "Proven": 18,
+  "Probable": 11,
+  "Disputed": 7,
+  "Legend": 7
+ },
+ "return_counts": {
+  "returned": 22,
+  "some": 9,
+  "never": 7,
+  "unknown": 5
+ },
+ "eras": [
+  {
+   "name": "Antiquity",
+   "label": "before AD 500",
+   "n": 12,
+   "grades": {
+    "Proven": 1,
+    "Probable": 4,
+    "Disputed": 4,
+    "Legend": 3
+   },
+   "proven_share": 0.083
+  },
+  {
+   "name": "Middle Ages",
+   "label": "500 to 1449",
+   "n": 19,
+   "grades": {
+    "Proven": 6,
+    "Probable": 6,
+    "Disputed": 3,
+    "Legend": 4
+   },
+   "proven_share": 0.316
+  },
+  {
+   "name": "Age of sail",
+   "label": "1450 to 1799",
+   "n": 6,
+   "grades": {
+    "Proven": 5,
+    "Probable": 1,
+    "Disputed": 0,
+    "Legend": 0
+   },
+   "proven_share": 0.833
+  },
+  {
+   "name": "Modern",
+   "label": "1800 onwards",
+   "n": 6,
+   "grades": {
+    "Proven": 6,
+    "Probable": 0,
+    "Disputed": 0,
+    "Legend": 0
+   },
+   "proven_share": 1.0
+  }
+ ],
+ "pre1450": {
+  "n": 31,
+  "proven": 7,
+  "legend": 7
+ },
+ "post1450": {
+  "n": 12,
+  "proven": 11
+ },
+ "grade_by_return": {
+  "Proven": {
+   "returned": 9,
+   "some": 6,
+   "never": 3,
+   "unknown": 0
+  },
+  "Probable": {
+   "returned": 5,
+   "some": 3,
+   "never": 1,
+   "unknown": 2
+  },
+  "Disputed": {
+   "returned": 5,
+   "some": 0,
+   "never": 1,
+   "unknown": 1
+  },
+  "Legend": {
+   "returned": 3,
+   "some": 0,
+   "never": 2,
+   "unknown": 2
+  }
+ },
+ "origin_regions": [
+  [
+   "Britain",
+   4
+  ],
+  [
+   "Greek Massalia",
+   2
+  ],
+  [
+   "Han China",
+   2
+  ],
+  [
+   "Ming China",
+   2
+  ],
+  [
+   "Egypt and Phoenicia",
+   1
+  ],
+  [
+   "Persian Empire (Carian Greek)",
+   1
+  ],
+  [
+   "Carthage",
+   1
+  ],
+  [
+   "Qin China",
+   1
+  ],
+  [
+   "Roman Republic",
+   1
+  ],
+  [
+   "Roman Empire",
+   1
+  ],
+  [
+   "China",
+   1
+  ],
+  [
+   "Kabul and southern China",
+   1
+  ],
+  [
+   "Ireland",
+   1
+  ],
+  [
+   "Tang China",
+   1
+  ],
+  [
+   "Abbasid Caliphate",
+   1
+  ],
+  [
+   "Iceland and Norway",
+   1
+  ],
+  [
+   "Norse Greenland",
+   1
+  ],
+  [
+   "Iceland and Greenland",
+   1
+  ],
+  [
+   "Iceland",
+   1
+  ],
+  [
+   "Hawaiki (eastern Polynesia)",
+   1
+  ],
+  [
+   "Eastern Polynesia",
+   1
+  ],
+  [
+   "Wales",
+   1
+  ],
+  [
+   "Papal court at Lyon",
+   1
+  ],
+  [
+   "France (Flanders)",
+   1
+  ],
+  [
+   "Venice",
+   1
+  ],
+  [
+   "Yuan China",
+   1
+  ],
+  [
+   "Mali Empire",
+   1
+  ],
+  [
+   "Marinid Morocco",
+   1
+  ],
+  [
+   "Ming China (claimed)",
+   1
+  ],
+  [
+   "Tver (Russia)",
+   1
+  ],
+  [
+   "Castile",
+   1
+  ],
+  [
+   "Portugal",
+   1
+  ],
+  [
+   "Castile (Spain)",
+   1
+  ],
+  [
+   "France",
+   1
+  ],
+  [
+   "Victoria (Australia)",
+   1
+  ],
+  [
+   "Norway",
+   1
+  ],
+  [
+   "Norway (from Peru)",
+   1
+  ]
+ ],
+ "n_stops": 405,
+ "n_drawn_points": 306,
+ "stop_conf": {
+  "known": 276,
+  "approximate": 77,
+  "conjectural": 52
+ },
+ "stop_conf_by_grade": {
+  "Proven": {
+   "known": 175,
+   "approximate": 32,
+   "conjectural": 6,
+   "share_conjectural": 0.028
+  },
+  "Probable": {
+   "known": 95,
+   "approximate": 28,
+   "conjectural": 18,
+   "share_conjectural": 0.128
+  },
+  "Disputed": {
+   "known": 4,
+   "approximate": 10,
+   "conjectural": 13,
+   "share_conjectural": 0.481
+  },
+  "Legend": {
+   "known": 2,
+   "approximate": 7,
+   "conjectural": 15,
+   "share_conjectural": 0.625
+  }
+ },
+ "coord_sources": {
+  "wikipedia": 128,
+  "geonames": 258,
+  "text": 19
+ },
+ "articles_used": [
+  "1421: The Year China Discovered the World",
+  "Abu Bakr II",
+  "Afanasy Nikitin",
+  "Amundsen's South Pole expedition",
+  "Bjarni Herjólfsson",
+  "Burke and Wills expedition",
+  "Euthymenes",
+  "Faxian",
+  "First voyage of James Cook",
+  "Franklin's lost expedition",
+  "Fusang",
+  "Gan Ying",
+  "Giovanni da Pian del Carpine",
+  "Gudrid Thorbjarnardóttir",
+  "Hanno the Navigator",
+  "Ibn Battuta",
+  "Ibn Fadlan",
+  "Imperial Trans-Antarctic Expedition",
+  "Kon-Tiki expedition",
+  "Kupe",
+  "L'Anse aux Meadows",
+  "Lapérouse expedition",
+  "Leif Erikson",
+  "Madoc",
+  "Magellan expedition",
+  "Marco Polo",
+  "Ming treasure voyages",
+  "Necho II",
+  "Polynesian navigation",
+  "Pytheas",
+  "Rabban Bar Sauma",
+  "Saint Brendan",
+  "Scylax of Caryanda",
+  "Sino-Roman relations",
+  "Terra Nova Expedition",
+  "Thorfinn Karlsefni",
+  "Vasco da Gama",
+  "Voyages of Christopher Columbus",
+  "William of Rubruck",
+  "Xu Fu",
+  "Xuanzang",
+  "Zhang Qian"
+ ],
+ "n_articles_used": 42,
+ "km_total_all": 725858,
+ "longest": [
+  {
+   "id": "laperouse",
+   "name": "La Perouse's lost expedition",
+   "km": 69705
+  },
+  {
+   "id": "ibn_battuta",
+   "name": "Ibn Battuta's great journey",
+   "km": 67563
+  },
+  {
+   "id": "cook1",
+   "name": "Cook's first voyage on the Endeavour",
+   "km": 60874
+  },
+  {
+   "id": "magellan",
+   "name": "Magellan and Elcano round the world",
+   "km": 56409
+  },
+  {
+   "id": "da_gama",
+   "name": "Vasco da Gama's sea route to India",
+   "km": 40460
+  }
+ ],
+ "shortest": [
+  {
+   "id": "scott",
+   "name": "Scott's polar party",
+   "km": 2536
+  },
+  {
+   "id": "mali_fleet",
+   "name": "The Atlantic fleet of Mali ('Abu Bakr II')",
+   "km": 1681
+  },
+  {
+   "id": "xu_fu",
+   "name": "Xu Fu and the elixir of life",
+   "km": 1090
+  }
+ ],
+ "km_median": 10724,
+ "km_by_grade_median": {
+  "Proven": 16158,
+  "Probable": 12855,
+  "Disputed": 7891,
+  "Legend": 7944
+ },
+ "sure_share_by_grade": {
+  "Proven": 0.912,
+  "Probable": 0.676,
+  "Disputed": 0.285,
+  "Legend": 0.084
+ },
+ "stated_vs_drawn": [
+  {
+   "id": "ibn_fadlan",
+   "name": "Ibn Fadlan's embassy to the Volga Bulgars",
+   "stated": 4000,
+   "note": "the delegation covered some 4,000 km",
+   "drawn": 4627,
+   "basis": "drawn route, Baghdad to Bolghar",
+   "comparable": true,
+   "ratio": 1.16
+  },
+  {
+   "id": "carpine",
+   "name": "Carpine's embassy to the Great Khan",
+   "stated": 4828,
+   "note": "an estimated 3,000 miles in 106 days (Batu's camp to Sira Orda)",
+   "drawn": 4701,
+   "basis": "drawn route from Batu's camp to Sira Orda",
+   "comparable": true,
+   "ratio": 0.97
+  },
+  {
+   "id": "marco_polo",
+   "name": "Marco Polo to the court of Kublai Khan",
+   "stated": 24140,
+   "note": "almost 15,000 miles (about 24,140 km)",
+   "drawn": 27339,
+   "basis": "whole drawn route",
+   "comparable": true,
+   "ratio": 1.13
+  },
+  {
+   "id": "ibn_battuta",
+   "name": "Ibn Battuta's great journey",
+   "stated": 117000,
+   "note": "totalling around 117,000 km (all his travels to 1354)",
+   "drawn": 67563,
+   "basis": "my route covers only the 1325 to 1349 circuit, not his later trips to Spain and Mali",
+   "comparable": false,
+   "ratio": 0.58
+  },
+  {
+   "id": "da_gama",
+   "name": "Vasco da Gama's sea route to India",
+   "stated": 40075,
+   "note": "the distance around Africa to India and back was greater than the length of the equator",
+   "drawn": 40460,
+   "basis": "whole drawn route",
+   "comparable": true,
+   "ratio": 1.01
+  },
+  {
+   "id": "burke_wills",
+   "name": "Burke and Wills cross Australia",
+   "stated": 3250,
+   "note": "Melbourne to the Gulf of Carpentaria, around 3,250 km (one way)",
+   "drawn": 2303,
+   "basis": "drawn outward route only",
+   "comparable": true,
+   "ratio": 0.71
+  },
+  {
+   "id": "kon_tiki",
+   "name": "Kon-Tiki, the raft that tested the wrong theory",
+   "stated": 6900,
+   "note": "101 days over 6,900 km",
+   "drawn": 7285,
+   "basis": "whole drawn route",
+   "comparable": true,
+   "ratio": 1.06
+  }
+ ],
+ "stated_vs_drawn_n": 6,
+ "stated_vs_drawn_ratio_range": [
+  0.71,
+  1.16
+ ],
+ "carpine_check": {
+  "stated_km": 4828,
+  "drawn_km": 4701,
+  "days": 105
+ },
+ "burke_menindee_check": {
+  "stated_km": 750,
+  "drawn_km": 647,
+  "days": 53
+ },
+ "pace": [
+  {
+   "id": "kon_tiki",
+   "name": "Kon-Tiki, the raft that tested the wrong theory",
+   "km": 7285,
+   "days": 101,
+   "kmd": 72.1,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "columbus",
+   "name": "Columbus's first voyage",
+   "km": 15064,
+   "days": 224,
+   "kmd": 67.2,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "cook1",
+   "name": "Cook's first voyage on the Endeavour",
+   "km": 60874,
+   "days": 1050,
+   "kmd": 58.0,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "da_gama",
+   "name": "Vasco da Gama's sea route to India",
+   "km": 40460,
+   "days": 732,
+   "kmd": 55.3,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "magellan",
+   "name": "Magellan and Elcano round the world",
+   "km": 56409,
+   "days": 1082,
+   "kmd": 52.1,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "zheng_he_5",
+   "name": "Zheng He's fifth voyage, to Arabia and East Africa",
+   "km": 28538,
+   "days": 799,
+   "kmd": 35.7,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "zheng_he_7",
+   "name": "Zheng He's seventh voyage, to Hormuz",
+   "km": 27282,
+   "days": 915,
+   "kmd": 29.8,
+   "mode": "sea",
+   "grade": "Proven"
+  },
+  {
+   "id": "endurance",
+   "name": "Shackleton's Endurance and the return",
+   "km": 22796,
+   "days": 769,
+   "kmd": 29.6,
+   "mode": "mixed",
+   "grade": "Proven"
+  },
+  {
+   "id": "amundsen",
+   "name": "Amundsen's march to the South Pole",
+   "km": 2558,
+   "days": 98,
+   "kmd": 26.1,
+   "mode": "ice",
+   "grade": "Proven"
+  },
+  {
+   "id": "scott",
+   "name": "Scott's polar party",
+   "km": 2536,
+   "days": 149,
+   "kmd": 17.0,
+   "mode": "ice",
+   "grade": "Proven"
+  },
+  {
+   "id": "carpine",
+   "name": "Carpine's embassy to the Great Khan",
+   "km": 15860,
+   "days": 943,
+   "kmd": 16.8,
+   "mode": "land",
+   "grade": "Proven"
+  },
+  {
+   "id": "rubruck",
+   "name": "William of Rubruck to Karakorum",
+   "km": 12855,
+   "days": 830,
+   "kmd": 15.5,
+   "mode": "land",
+   "grade": "Probable"
+  },
+  {
+   "id": "ibn_fadlan",
+   "name": "Ibn Fadlan's embassy to the Volga Bulgars",
+   "km": 4627,
+   "days": 325,
+   "kmd": 14.2,
+   "mode": "land",
+   "grade": "Probable"
+  },
+  {
+   "id": "burke_wills",
+   "name": "Burke and Wills cross Australia",
+   "km": 3449,
+   "days": 314,
+   "kmd": 11.0,
+   "mode": "land",
+   "grade": "Proven"
+  },
+  {
+   "id": "ibn_battuta",
+   "name": "Ibn Battuta's great journey",
+   "km": 67563,
+   "days": 8920,
+   "kmd": 7.6,
+   "mode": "mixed",
+   "grade": "Probable"
+  },
+  {
+   "id": "franklin",
+   "name": "Franklin's lost expedition",
+   "km": 6739,
+   "days": 1073,
+   "kmd": 6.3,
+   "mode": "sea",
+   "grade": "Proven"
+  }
+ ],
+ "n_pace": 16,
+ "passages": [
+  {
+   "journey": "columbus",
+   "name": "Columbus's first voyage",
+   "frm": "La Gomera",
+   "to": "Guanahani (San Salvador)",
+   "depart": "1492-09-06",
+   "arrive": "1492-10-12",
+   "days": 36,
+   "km": 5726,
+   "km_per_day": 159.0,
+   "mode": "Sailing ship",
+   "source": "Voyages of Christopher Columbus#First voyage (1492–1493)",
+   "grade": "Proven"
+  },
+  {
+   "journey": "da_gama",
+   "name": "Vasco da Gama's sea route to India",
+   "frm": "Malindi",
+   "to": "Calicut (Kappad)",
+   "depart": "1498-04-24",
+   "arrive": "1498-05-20",
+   "days": 26,
+   "km": 4260,
+   "km_per_day": 163.9,
+   "mode": "Sailing ship",
+   "source": "Vasco da Gama#First voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "da_gama",
+   "name": "Vasco da Gama's sea route to India",
+   "frm": "Anjediva",
+   "to": "Malindi",
+   "depart": "1498-10-03",
+   "arrive": "1499-01-07",
+   "days": 96,
+   "km": 4353,
+   "km_per_day": 45.3,
+   "mode": "Sailing ship",
+   "source": "Vasco da Gama#First voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "magellan",
+   "name": "Magellan and Elcano round the world",
+   "frm": "Strait of Magellan",
+   "to": "Guam",
+   "depart": "1520-11-28",
+   "arrive": "1521-03-06",
+   "days": 98,
+   "km": 18108,
+   "km_per_day": 184.8,
+   "mode": "Sailing ship",
+   "source": "Magellan expedition#Pacific crossing",
+   "grade": "Proven"
+  },
+  {
+   "journey": "zheng_he_7",
+   "name": "Zheng He's seventh voyage, to Hormuz",
+   "frm": "Calicut",
+   "to": "Hormuz",
+   "depart": "1432-12-14",
+   "arrive": "1433-01-17",
+   "days": 34,
+   "km": 2729,
+   "km_per_day": 80.3,
+   "mode": "Sailing ship",
+   "source": "Ming treasure voyages#Seventh voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "zheng_he_7",
+   "name": "Zheng He's seventh voyage, to Hormuz",
+   "frm": "Hormuz (departure)",
+   "to": "Calicut",
+   "depart": "1433-03-09",
+   "arrive": "1433-03-31",
+   "days": 22,
+   "km": 2720,
+   "km_per_day": 123.7,
+   "mode": "Sailing ship",
+   "source": "Ming treasure voyages#Seventh voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "zheng_he_7",
+   "name": "Zheng He's seventh voyage, to Hormuz",
+   "frm": "Calicut",
+   "to": "Semudera",
+   "depart": "1433-04-09",
+   "arrive": "1433-04-25",
+   "days": 16,
+   "km": 2752,
+   "km_per_day": 172.0,
+   "mode": "Sailing ship",
+   "source": "Ming treasure voyages#Seventh voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "zheng_he_7",
+   "name": "Zheng He's seventh voyage, to Hormuz",
+   "frm": "Vijaya (Qui Nhon)",
+   "to": "Taicang",
+   "depart": "1433-06-17",
+   "arrive": "1433-07-07",
+   "days": 20,
+   "km": 2560,
+   "km_per_day": 128.0,
+   "mode": "Sailing ship",
+   "source": "Ming treasure voyages#Seventh voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "cook1",
+   "name": "Cook's first voyage on the Endeavour",
+   "frm": "Plymouth",
+   "to": "Rio de Janeiro",
+   "depart": "1768-08-26",
+   "arrive": "1768-11-15",
+   "days": 81,
+   "km": 9154,
+   "km_per_day": 113.0,
+   "mode": "Sailing ship",
+   "source": "First voyage of James Cook#Voyage from Plymouth to Tahiti",
+   "grade": "Proven"
+  },
+  {
+   "journey": "kon_tiki",
+   "name": "Kon-Tiki, the raft that tested the wrong theory",
+   "frm": "Callao, Peru",
+   "to": "Raroia reef, Tuamotus",
+   "depart": "1947-04-28",
+   "arrive": "1947-08-07",
+   "days": 101,
+   "km": 7285,
+   "km_per_day": 72.1,
+   "mode": "Balsa raft",
+   "source": "Kon-Tiki expedition#The Voyage",
+   "grade": "Proven"
+  },
+  {
+   "journey": "endurance",
+   "name": "Shackleton's Endurance and the return",
+   "frm": "Elephant Island",
+   "to": "King Haakon Bay, South Georgia",
+   "depart": "1916-04-24",
+   "arrive": "1916-05-10",
+   "days": 16,
+   "km": 1307,
+   "km_per_day": 81.7,
+   "mode": "Open boat",
+   "source": "Imperial Trans-Antarctic Expedition",
+   "grade": "Proven"
+  },
+  {
+   "journey": "endurance",
+   "name": "Shackleton's Endurance and the return",
+   "frm": "Beset in the Weddell Sea",
+   "to": "Ship abandoned",
+   "depart": "1915-01-19",
+   "arrive": "1915-10-27",
+   "days": 281,
+   "km": 1050,
+   "km_per_day": 3.7,
+   "mode": "Drifting in pack ice",
+   "source": "Imperial Trans-Antarctic Expedition",
+   "grade": "Proven"
+  },
+  {
+   "journey": "carpine",
+   "name": "Carpine's embassy to the Great Khan",
+   "frm": "Batu's camp on the Volga",
+   "to": "Sira Orda, near Karakorum",
+   "depart": "1246-04-08",
+   "arrive": "1246-07-22",
+   "days": 105,
+   "km": 4701,
+   "km_per_day": 44.8,
+   "mode": "On horseback",
+   "source": "Giovanni da Pian del Carpine#Travels",
+   "grade": "Proven"
+  },
+  {
+   "journey": "rubruck",
+   "name": "William of Rubruck to Karakorum",
+   "frm": "Sarai, Batu Khan's camp",
+   "to": "Karakorum",
+   "depart": "1253-09-16",
+   "arrive": "1253-12-27",
+   "days": 102,
+   "km": 4759,
+   "km_per_day": 46.7,
+   "mode": "On horseback",
+   "source": "William of Rubruck#Travels",
+   "grade": "Probable"
+  },
+  {
+   "journey": "ibn_fadlan",
+   "name": "Ibn Fadlan's embassy to the Volga Bulgars",
+   "frm": "Baghdad",
+   "to": "Bolghar, capital of the Volga Bulgars",
+   "depart": "921-06-21",
+   "arrive": "922-05-12",
+   "days": 325,
+   "km": 4627,
+   "km_per_day": 14.2,
+   "mode": "Caravan (with a winter halt)",
+   "source": "Ibn Fadlan#The embassy",
+   "grade": "Probable"
+  },
+  {
+   "journey": "burke_wills",
+   "name": "Burke and Wills cross Australia",
+   "frm": "Royal Park, Melbourne",
+   "to": "Menindee",
+   "depart": "1860-08-20",
+   "arrive": "1860-10-12",
+   "days": 53,
+   "km": 647,
+   "km_per_day": 12.2,
+   "mode": "Wagons, horses and camels",
+   "source": "Burke and Wills expedition#Departure from Melbourne",
+   "grade": "Proven"
+  },
+  {
+   "journey": "burke_wills",
+   "name": "Burke and Wills cross Australia",
+   "frm": "Cooper Creek depot",
+   "to": "Flinders River, near the Gulf of Carpentaria",
+   "depart": "1860-12-16",
+   "arrive": "1861-02-02",
+   "days": 48,
+   "km": 1111,
+   "km_per_day": 23.1,
+   "mode": "Wagons, horses and camels",
+   "source": "Burke and Wills expedition#Cooper Creek",
+   "grade": "Proven"
+  },
+  {
+   "journey": "amundsen",
+   "name": "Amundsen's march to the South Pole",
+   "frm": "Framheim, Bay of Whales",
+   "to": "South Pole",
+   "depart": "1911-10-19",
+   "arrive": "1911-12-14",
+   "days": 56,
+   "km": 1279,
+   "km_per_day": 22.8,
+   "mode": "Skis and dog sledges",
+   "source": "Amundsen's South Pole expedition",
+   "grade": "Proven"
+  },
+  {
+   "journey": "amundsen",
+   "name": "Amundsen's march to the South Pole",
+   "frm": "South Pole (departure)",
+   "to": "Framheim",
+   "depart": "1911-12-18",
+   "arrive": "1912-01-25",
+   "days": 38,
+   "km": 1279,
+   "km_per_day": 33.7,
+   "mode": "Skis and dog sledges",
+   "source": "Amundsen's South Pole expedition",
+   "grade": "Proven"
+  },
+  {
+   "journey": "scott",
+   "name": "Scott's polar party",
+   "frm": "Cape Evans",
+   "to": "South Pole",
+   "depart": "1911-11-01",
+   "arrive": "1912-01-17",
+   "days": 77,
+   "km": 1384,
+   "km_per_day": 18.0,
+   "mode": "Ponies, dogs, then man-hauling",
+   "source": "Terra Nova Expedition#The Barrier: southward",
+   "grade": "Proven"
+  },
+  {
+   "journey": "scott",
+   "name": "Scott's polar party",
+   "frm": "South Pole (turn for home)",
+   "to": "Last camp, 11 miles south of One Ton Depot",
+   "depart": "1912-01-18",
+   "arrive": "1912-03-20",
+   "days": 62,
+   "km": 1152,
+   "km_per_day": 18.6,
+   "mode": "Man-hauling sledges",
+   "source": "Terra Nova Expedition#Eleven miles",
+   "grade": "Proven"
+  }
+ ],
+ "n_passages": 21,
+ "passage_modes": {
+  "Sailing ship": {
+   "n": 9,
+   "median": 128.0,
+   "min": 45.3,
+   "max": 184.8
+  },
+  "Balsa raft": {
+   "n": 1,
+   "median": 72.1,
+   "min": 72.1,
+   "max": 72.1
+  },
+  "Open boat": {
+   "n": 1,
+   "median": 81.7,
+   "min": 81.7,
+   "max": 81.7
+  },
+  "Drifting in pack ice": {
+   "n": 1,
+   "median": 3.7,
+   "min": 3.7,
+   "max": 3.7
+  },
+  "On horseback": {
+   "n": 2,
+   "median": 45.8,
+   "min": 44.8,
+   "max": 46.7
+  },
+  "Caravan (with a winter halt)": {
+   "n": 1,
+   "median": 14.2,
+   "min": 14.2,
+   "max": 14.2
+  },
+  "Wagons, horses and camels": {
+   "n": 2,
+   "median": 17.6,
+   "min": 12.2,
+   "max": 23.1
+  },
+  "Skis and dog sledges": {
+   "n": 2,
+   "median": 28.2,
+   "min": 22.8,
+   "max": 33.7
+  },
+  "Ponies, dogs, then man-hauling": {
+   "n": 1,
+   "median": 18.0,
+   "min": 18.0,
+   "max": 18.0
+  },
+  "Man-hauling sledges": {
+   "n": 1,
+   "median": 18.6,
+   "min": 18.6,
+   "max": 18.6
+  }
+ },
+ "fastest_passage": {
+  "journey": "magellan",
+  "name": "Magellan and Elcano round the world",
+  "frm": "Strait of Magellan",
+  "to": "Guam",
+  "depart": "1520-11-28",
+  "arrive": "1521-03-06",
+  "days": 98,
+  "km": 18108,
+  "km_per_day": 184.8,
+  "mode": "Sailing ship",
+  "source": "Magellan expedition#Pacific crossing",
+  "grade": "Proven"
+ },
+ "slowest_passage": {
+  "journey": "endurance",
+  "name": "Shackleton's Endurance and the return",
+  "frm": "Beset in the Weddell Sea",
+  "to": "Ship abandoned",
+  "depart": "1915-01-19",
+  "arrive": "1915-10-27",
+  "days": 281,
+  "km": 1050,
+  "km_per_day": 3.7,
+  "mode": "Drifting in pack ice",
+  "source": "Imperial Trans-Antarctic Expedition",
+  "grade": "Proven"
+ },
+ "sail_median_kmd": 128.0,
+ "da_gama_out_back": {
+  "out_days": 26,
+  "back_days": 96,
+  "out_kmd": 163.9,
+  "back_kmd": 45.3
+ },
+ "pole": {
+  "amundsen_out_kmd": 22.8,
+  "amundsen_back_kmd": 33.7,
+  "amundsen_out_days": 56,
+  "amundsen_back_days": 38,
+  "scott_out_kmd": 18.0,
+  "scott_back_kmd": 18.6,
+  "scott_out_days": 77,
+  "scott_back_days": 62,
+  "amundsen_km": 2558,
+  "scott_km_out": 1384,
+  "scott_km_back": 1152
+ },
+ "never_returned": [
+  {
+   "id": "xu_fu",
+   "name": "Xu Fu and the elixir of life"
+  },
+  {
+   "id": "liqian",
+   "name": "The 'lost legion' of Liqian"
+  },
+  {
+   "id": "mali_fleet",
+   "name": "The Atlantic fleet of Mali ('Abu Bakr II')"
+  },
+  {
+   "id": "nikitin",
+   "name": "Afanasy Nikitin's 'Journey Beyond Three Seas'"
+  },
+  {
+   "id": "laperouse",
+   "name": "La Perouse's lost expedition"
+  },
+  {
+   "id": "franklin",
+   "name": "Franklin's lost expedition"
+  },
+  {
+   "id": "scott",
+   "name": "Scott's polar party"
+  }
+ ],
+ "unknown_return": [
+  {
+   "id": "roman_166",
+   "name": "The 'Roman embassy' of AD 166"
+  },
+  {
+   "id": "ibn_fadlan",
+   "name": "Ibn Fadlan's embassy to the Volga Bulgars"
+  },
+  {
+   "id": "polynesia_america",
+   "name": "Polynesians and South America"
+  },
+  {
+   "id": "madoc",
+   "name": "Prince Madoc sails west"
+  },
+  {
+   "id": "menzies_1421",
+   "name": "The '1421' claim: China discovers America"
+  }
+ ],
+ "mirrors": [
+  {
+   "a": "gan_ying",
+   "b": "roman_166",
+   "text": "West and east: Gan Ying set out for Rome in AD 97 and turned back at the sea; in AD 166 men claiming to come from Rome reached the Han court from the other direction, by sea."
+  },
+  {
+   "a": "roman_166",
+   "b": "liqian",
+   "text": "The real Roman arrivals in China were probably merchants with gifts of ivory; the 'lost legion' that marched east is a 20th-century hypothesis."
+  },
+  {
+   "a": "bar_sauma",
+   "b": "marco_polo",
+   "text": "Rabban Bar Sauma left Beijing for Rome and Paris as Marco Polo lived in China: Europe seen from the East, and the East seen from Europe, at the same moment."
+  },
+  {
+   "a": "zheng_he_5",
+   "b": "da_gama",
+   "text": "Zheng He's fleet called at Calicut and Malindi in 1418 and 1419; eighty years later da Gama arrived at the same two ports from the other side of the world."
+  },
+  {
+   "a": "polynesia_america",
+   "b": "kon_tiki",
+   "text": "Genetics points to contact between Polynesia and South America around 1200; in 1947 Kon-Tiki drifted the other way to test a theory that turned out to be wrong."
+  },
+  {
+   "a": "karlsefni",
+   "b": "gudrid_rome",
+   "text": "Gudrid stood at both edges of her world: a child born in Vinland, then a pilgrimage south to Rome."
+  },
+  {
+   "a": "amundsen",
+   "b": "scott",
+   "text": "Same goal, same summer: Amundsen came home with all his men; Scott's party of five died on the way back."
+  },
+  {
+   "a": "carpine",
+   "b": "bar_sauma",
+   "text": "A papal envoy rode east to the Mongols in 1245; forty years later a Mongol envoy rode west to the Pope."
+  }
+ ],
+ "n_mirrors": 8,
+ "grade_share": {
+  "Proven": 0.419,
+  "Probable": 0.256,
+  "Disputed": 0.163,
+  "Legend": 0.163
+ },
+ "proven_or_probable": 29,
+ "disputed_or_legend": 14,
+ "legend_never_or_unknown": 4,
+ "polar": {
+  "days_apart": 34
+ }
+}

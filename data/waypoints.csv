@@ -1,0 +1,712 @@
+journey,seq,place,lat,lon,date,leg,confidence,coordinate_source,wikipedia_source,note
+phoenicians,0,Red Sea coast of Egypt (start),29.96667,32.55,c. -600,out,approximate,Wikipedia coordinates of the linked article 'Suez',Necho II#Phoenician expedition,Herodotus: they set out from the Red Sea
+phoenicians,1,(drawn routing point),12.5,43.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,2,(drawn routing point),-5.0,41.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,3,(drawn routing point),-26.0,35.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,4,Cape of Good Hope (implied),-34.35806,18.47556,c. -599,out,conjectural,Wikipedia coordinates of the linked article 'Cape of Good Hope',Necho II#Phoenician expedition,implied by a clockwise passage round Africa; not named in the source
+phoenicians,5,(drawn routing point),-20.0,10.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,6,(drawn routing point),4.0,2.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,7,(drawn routing point),4.0,-10.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,8,(drawn routing point),15.0,-19.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,9,(drawn routing point),28.0,-14.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,10,Pillars of Heracles,36.12944,-5.34444,c. -598,back,approximate,Wikipedia coordinates of the linked article 'Pillars of Hercules',Necho II#Phoenician expedition,Herodotus: they returned by the Pillars
+phoenicians,11,(drawn routing point),37.5,10.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+phoenicians,12,Mouth of the Nile,30.9,31.11667,c. -597,back,approximate,Wikipedia coordinates of the linked article 'Nile Delta',Necho II#Phoenician expedition,back to the mouth of the Nile
+scylax,0,"Caspatyrus, probably Peshawar",34.01444,71.5675,c. -515,out,conjectural,Wikipedia coordinates of the linked article 'Peshawar',Scylax of Caryanda#Exploration,Bivar reads Caspatyrus as a misspelling of Peshawar
+scylax,1,Kabul River and Indus confluence,33.76667,72.36667,c. -515,out,approximate,Wikipedia coordinates of the linked article 'Attock',Scylax of Caryanda#Exploration,presumed route east along the Kabul River to the Indus near Attock
+scylax,2,Mouth of the Indus,23.995,67.435,c. -514,out,approximate,Wikipedia coordinates of the linked article 'Indus River',Scylax of Caryanda#Exploration,
+scylax,3,(drawn routing point),23.0,62.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scylax,4,(drawn routing point),22.5,60.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scylax,5,(drawn routing point),14.5,52.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scylax,6,(drawn routing point),12.4,44.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scylax,7,(drawn routing point),20.0,38.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scylax,8,Suez (head of the Red Sea),29.96667,32.55,c. -512,out,approximate,Wikipedia coordinates of the linked article 'Suez',Scylax of Caryanda#Exploration,sailed round Arabia to reach Suez
+euthymenes,0,Massalia (Marseille),43.2964,5.37,c. -550,out,known,Wikipedia coordinates of the linked article 'Marseille',Euthymenes,his home city
+euthymenes,1,(drawn routing point),38.0,2.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+euthymenes,2,Pillars of Heracles,35.95,-5.5,c. -550,out,conjectural,Wikipedia coordinates of the linked article 'Strait of Gibraltar',Euthymenes,"he says he navigated the Atlantic, so he passed the strait"
+euthymenes,3,(drawn routing point),31.0,-10.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+euthymenes,4,(drawn routing point),26.5,-15.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+euthymenes,5,(drawn routing point),21.0,-17.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+euthymenes,6,"A great river, perhaps the Senegal",15.78806,-16.52889,c. -550,out,conjectural,Wikipedia coordinates of the linked article 'Senegal River',Euthymenes,the river may have been the Senegal
+hanno,0,Carthage,36.86108,10.33161,c. -500,out,known,"GeoNames cities1000 id 2468245 (Carthage, TN)",Hanno the Navigator#Expedition,sailed west from Carthage
+hanno,1,(drawn routing point),37.6,5.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,2,Strait of Gibraltar,35.95,-5.5,c. -500,out,known,Wikipedia coordinates of the linked article 'Strait of Gibraltar',Hanno the Navigator#Expedition,passed through the Strait of Gibraltar
+hanno,3,Coast of Morocco (colonies founded),31.49556,-9.78639,c. -500,out,approximate,Wikipedia coordinates of the linked article 'Mogador Island',Hanno the Navigator#Expedition,founded or repopulated seven colonies along the coast of Morocco
+hanno,4,(drawn routing point),26.0,-15.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,5,(drawn routing point),21.0,-17.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,6,Senegal (consensus minimum),15.78806,-16.52889,c. -500,out,approximate,Wikipedia coordinates of the linked article 'Senegal River',Hanno the Navigator#Expedition,Harden: consensus that the expedition reached at least Senegal
+hanno,7,(drawn routing point),9.0,-14.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,8,(drawn routing point),4.3,-8.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,9,(drawn routing point),3.0,3.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hanno,10,Mount Cameroon (one reading),4.21667,9.1725,c. -499,out,conjectural,Wikipedia coordinates of the linked article 'Mount Cameroon',Hanno the Navigator#Expedition,Harden: the description fits Mount Cameroon; Warmington prefers Kakoulima in Guinea
+pytheas,0,Massalia (Marseille),43.2964,5.37,c. -325,out,known,Wikipedia coordinates of the linked article 'Marseille',Pytheas#Circumstances of the voyage,start unknown; Massalia is his home
+pytheas,1,(drawn routing point),38.0,2.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,2,Gades (Cadiz),36.535,-6.2975,c. -325,out,approximate,Wikipedia coordinates of the linked article 'Cádiz',Pytheas#Circumstances of the voyage,"Strabo, via Eratosthenes, on the distance to Gades"
+pytheas,3,Sacred Promontory (Cape St Vincent),37.025,-8.99444,c. -325,out,approximate,Wikipedia coordinates of the linked article 'Cape St. Vincent',Pytheas#Circumstances of the voyage,
+pytheas,4,(drawn routing point),43.8,-9.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,5,(drawn routing point),48.3,-5.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,6,Belerion (Land's End),50.11861,-5.53715,c. -325,out,approximate,"GeoNames cities1000 id 2640377 (Penzance, GB)","Pytheas#The three corners of Britain: Kantion, Belerion and Orkas","Belerion, the western corner of Britain; drawn at nearby Penzance"
+pytheas,7,(drawn routing point),52.0,-5.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,8,(drawn routing point),55.5,-6.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,9,"Berrice, perhaps Lewis",58.20925,-6.38649,c. -324,out,conjectural,"GeoNames cities1000 id 2636790 (Stornoway, GB)",Pytheas#Thule,Pliny's Berrice may be Lewis; drawn at Stornoway
+pytheas,10,Orkas (Orkney),59.0,-3.0,c. -324,out,approximate,Wikipedia coordinates of the linked article 'Orkney',"Pytheas#The three corners of Britain: Kantion, Belerion and Orkas",
+pytheas,11,"Thule, perhaps Norway",63.42972,10.39333,c. -324,out,conjectural,Wikipedia coordinates of the linked article 'Trondheim',Pytheas#Thule,one reading puts Thule on the coast of More og Romsdal or Trondelag
+pytheas,12,(drawn routing point),58.0,6.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,13,Coast of the Baltic (amber coast),54.36167,18.95194,c. -323,back,conjectural,Wikipedia coordinates of the linked article 'Vistula',Pytheas#Discovery of the Baltic,he probably reached the Vistula
+pytheas,14,(drawn routing point),55.5,11.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,15,(drawn routing point),57.4,8.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,16,Mouth of the Rhine,51.98167,4.08056,c. -322,back,conjectural,Wikipedia coordinates of the linked article 'Rhine',Pytheas#Thule,returned along the coast of Germany
+pytheas,17,Kantion (Kent),51.2,0.7,c. -322,back,approximate,Wikipedia coordinates of the linked article 'Kent',"Pytheas#The three corners of Britain: Kantion, Belerion and Orkas",
+pytheas,18,(drawn routing point),48.5,-5.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,19,(drawn routing point),43.8,-9.6,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,20,(drawn routing point),36.0,-6.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,21,(drawn routing point),38.0,2.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+pytheas,22,Massalia,43.2964,5.37,c. -320,back,approximate,Wikipedia coordinates of the linked article 'Marseille',Pytheas#Circumstances of the voyage,route home not recorded
+xu_fu,0,"Coast of Qi, Shandong (departure not recorded)",36.06488,120.38042,-210,out,conjectural,"GeoNames cities1000 id 1797929 (Qingdao, CN)",Xu Fu,he was from Qi; the departure point is not given in the article; drawn at Qingdao
+xu_fu,1,(drawn routing point),36.0,123.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xu_fu,2,(drawn routing point),34.0,127.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xu_fu,3,"Ariake Sea, Saga (Japanese tradition)",32.90694,130.37222,-210,out,conjectural,Wikipedia coordinates of the linked article 'Ariake Sea',Xu Fu#Legacy in Japan,Saga tradition says he landed at the Ariake Sea; first claimed in the 10th century
+zhang_qian,0,Chang'an,34.30833,108.85833,-138,out,known,Wikipedia coordinates of the linked article 'Chang'an',Zhang Qian#Zhang Qian's Missions,dispatched from the capital
+zhang_qian,1,(drawn routing point),38.9,100.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zhang_qian,2,Lop Nur,39.0197,88.16629,-129,out,approximate,"GeoNames cities1000 id 1280122 (Ruoqiang, CN)",Zhang Qian#Zhang Qian's Missions,passing Lop Nor after escaping the Xiongnu; drawn at Ruoqiang near the lake
+zhang_qian,3,Northern edge of the Tarim Basin,41.71556,82.93222,-129,out,conjectural,Wikipedia coordinates of the linked article 'Kucha',Zhang Qian#Zhang Qian's Missions,followed the northern edge of the Tarim Basin; Kucha used as a marker
+zhang_qian,4,Kashgar,39.4681,75.9938,-129,out,conjectural,Wikipedia coordinates of the linked article 'Kashgar',Zhang Qian#Zhang Qian's Missions,western end of the Tarim route; not named
+zhang_qian,5,Dayuan (Ferghana),40.52861,70.9425,-129,out,approximate,"GeoNames cities1000 id 1512979 (Qo‘qon, UZ)","Zhang Qian#Dayuan (大宛, Ferghana)",Ferghana valley; drawn at Kokand
+zhang_qian,6,Yuezhi and Bactria (Bactra),36.75635,66.8972,-128,out,approximate,"GeoNames cities1000 id 1147290 (Balkh, AF)","Zhang Qian#Daxia (大夏, Bactria)",capital Lanshi (Bactra)
+zhang_qian,7,(drawn routing point),37.5,73.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zhang_qian,8,Southern edge of the Tarim Basin,37.10927,79.93433,-127,back,conjectural,"GeoNames cities1000 id 1281019 (Gujangbagh, CN)",Zhang Qian#Zhang Qian's Missions,returned along the southern edge; Khotan used as a marker
+zhang_qian,9,(drawn routing point),39.0,88.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zhang_qian,10,(drawn routing point),40.1,94.7,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zhang_qian,11,Chang'an,34.30833,108.85833,-125,back,known,Wikipedia coordinates of the linked article 'Chang'an',Zhang Qian#Zhang Qian's Missions,returned in 125 BC
+liqian,0,Carrhae (Harran),36.87083,39.025,-53,out,known,Wikipedia coordinates of the linked article 'Harran',Sino-Roman relations#Hypothetical military contact,Crassus's defeat
+liqian,1,Margiana (Merv),37.66278,62.1925,-53,out,approximate,Wikipedia coordinates of the linked article 'Merv',Sino-Roman relations#Hypothetical military contact,prisoners sent to man the frontier
+liqian,2,"Zhizhi's fort, Talas valley",42.9,71.36667,-36,out,conjectural,Wikipedia coordinates of the linked article 'Taraz',Sino-Roman relations#Hypothetical military contact,Dubs's 'fish-scale formation'
+liqian,3,Liqian (Yongchang County),38.2434,101.9844,-36,out,conjectural,Wikipedia coordinates of the linked article 'Yongchang County',Sino-Roman relations#Hypothetical military contact,the village said to descend from them
+gan_ying,0,Western Regions command (Kashgar),39.4681,75.9938,97,out,conjectural,Wikipedia coordinates of the linked article 'Kashgar',Gan Ying,"sent by Ban Chao, Protector General of the Western Regions; start not stated"
+gan_ying,1,(drawn routing point),39.6,67.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,2,"Anxi (Parthia), via Merv",37.66278,62.1925,97,out,conjectural,Wikipedia coordinates of the linked article 'Merv',Gan Ying#Hou Hanshu,he crossed Anxi (Parthia); the road is not described
+gan_ying,3,(drawn routing point),35.6,51.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,4,(drawn routing point),34.8,48.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,5,Sibin (Susiana?),32.1942,48.2436,97,out,conjectural,"GeoNames cities1000 id 114593 (Shūsh, IR)",Gan Ying#Hou Hanshu,"Sibin, tentatively Susiana"
+gan_ying,6,"Tiaozhi (Characene), by the Western Sea",30.89469,47.57803,97,out,approximate,Wikipedia coordinates of the linked article 'Charax Spasinu',Gan Ying#Hou Hanshu,the turning point
+gan_ying,7,(drawn routing point),34.8,48.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,8,(drawn routing point),35.6,51.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,9,(drawn routing point),37.6,62.2,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,10,(drawn routing point),39.5,76.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,11,(drawn routing point),40.1,94.7,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,12,(drawn routing point),36.0,104.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gan_ying,13,Luoyang,34.6197,112.4539,98,back,approximate,Wikipedia coordinates of the linked article 'Luoyang',Gan Ying,an envoy was brought back to Luoyang
+roman_166,0,Red Sea port of Roman Egypt (drawn at Berenice),23.90861,35.4725,c. 165,out,conjectural,Wikipedia coordinates of the linked article 'Berenice Troglodytica',Sino-Roman relations#Trade relations,start not recorded; Red Sea ports carried Roman trade to India
+roman_166,1,(drawn routing point),20.0,38.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,2,(drawn routing point),12.6,43.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,3,(drawn routing point),12.5,50.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,4,(drawn routing point),9.5,72.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,5,India and Sri Lanka (route of the mission),6.0461,80.2103,c. 165,out,conjectural,"GeoNames cities1000 id 1246294 (Galle, LK)",Sino-Roman relations#Trade relations,Roman traces are known in India and Sri Lanka along the route
+roman_166,6,(drawn routing point),6.5,94.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,7,(drawn routing point),3.0,100.8,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,8,(drawn routing point),1.2,104.2,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,9,(drawn routing point),9.0,106.2,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,10,(drawn routing point),15.0,109.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,11,"Rinan, Jiaozhi (northern Vietnam)",21.0,106.0,166,out,approximate,Wikipedia coordinates of the linked article 'Tonkin',Sino-Roman relations#First Roman embassy,entered China by the frontier of Rinan
+roman_166,12,(drawn routing point),25.0,110.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+roman_166,13,"Luoyang, court of Emperor Huan",34.6197,112.4539,166,out,approximate,Wikipedia coordinates of the linked article 'Luoyang',Sino-Roman relations#First Roman embassy,"presented rhinoceros horn, ivory and tortoiseshell"
+faxian,0,Chang'an,34.30833,108.85833,399,out,known,Wikipedia coordinates of the linked article 'Chang'an',Faxian#Biography,set out with four others
+faxian,1,Zhangye,38.9248,100.4499,400,out,known,Wikipedia coordinates of the linked article 'Zhangye',Faxian#Biography,joined by five more pilgrims
+faxian,2,Dunhuang,40.14111,94.66389,400,out,conjectural,Wikipedia coordinates of the linked article 'Dunhuang',Faxian#Biography,not named in the article; the usual gate to the desert route
+faxian,3,Khotan,37.10927,79.93433,401,out,approximate,"GeoNames cities1000 id 1281019 (Gujangbagh, CN)",Faxian#Biography,noted Khotan's Buddhist clergy
+faxian,4,(drawn routing point),37.0,75.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,5,Oddiyana (Swat),35.2,72.48333,402,out,approximate,Wikipedia coordinates of the linked article 'Swat Valley',Faxian#Biography,
+faxian,6,Taxila,33.74583,72.7875,403,out,known,Wikipedia coordinates of the linked article 'Taxila',Faxian#Biography,
+faxian,7,Mathura,27.5035,77.67215,404,out,approximate,"GeoNames cities1000 id 1263364 (Mathura, IN)",Faxian#Biography,Mathura and Kannauj in Madhya Desha
+faxian,8,Shravasti,27.51708,82.05061,405,out,known,Wikipedia coordinates of the linked article 'Shravasti',Faxian#Biography,
+faxian,9,Kapilavastu (Lumbini),27.46963,83.27586,405,out,known,"Wikipedia coordinates of the linked article 'Maya Devi Temple, Lumbini'",Faxian#Biography,
+faxian,10,Kushinagar,26.741,83.888,406,out,known,Wikipedia coordinates of the linked article 'Kushinagar',Faxian#Biography,
+faxian,11,Pataliputra,25.6125,85.12833,406,out,known,Wikipedia coordinates of the linked article 'Pataliputra',Faxian#Biography,collected texts here
+faxian,12,Varanasi,25.31889,83.01278,407,out,known,Wikipedia coordinates of the linked article 'Varanasi',Faxian#Biography,
+faxian,13,Bodh Gaya,24.695,84.9925,407,out,known,Wikipedia coordinates of the linked article 'Bodh Gaya',Faxian#Biography,
+faxian,14,Tamralipti,22.30083,87.92593,409,back,known,"GeoNames cities1000 id 1255046 (Tamlūk, IN)",Faxian#Biography,left India from this eastern port about 409
+faxian,15,(drawn routing point),15.0,85.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,16,Sri Lanka (two years),8.31223,80.41306,410,back,approximate,"GeoNames cities1000 id 1251081 (Anuradhapura, LK)",Faxian#Biography,two-year stay; drawn at the old capital Anuradhapura
+faxian,17,(drawn routing point),6.0,90.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,18,(drawn routing point),5.5,95.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,19,(drawn routing point),2.5,101.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,20,(drawn routing point),-3.5,107.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,21,Probably Java,-6.99306,110.42083,411,back,conjectural,"GeoNames cities1000 id 1627896 (Semarang, ID)",Faxian#Biography,"storm drove the ship onto an island, probably Java; drawn at Semarang"
+faxian,22,(drawn routing point),-3.0,108.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,23,(drawn routing point),10.0,112.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,24,(drawn routing point),22.0,119.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,25,(drawn routing point),31.0,124.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+faxian,26,"Mount Lao, Shandong",36.19167,120.59167,412,back,known,Wikipedia coordinates of the linked article 'Mount Lao',Faxian#Biography,landed here after being blown off course
+faxian,27,Nanjing,32.06083,118.77889,412,back,known,Wikipedia coordinates of the linked article 'Nanjing',Faxian#Biography,settled here
+hui_shen,0,Southern China (court of Liang),32.06083,118.77889,458,out,approximate,Wikipedia coordinates of the linked article 'Nanjing',Fusang,the Liang court; drawn at Jiankang (Nanjing)
+hui_shen,1,(drawn routing point),40.0,130.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hui_shen,2,(drawn routing point),48.0,150.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hui_shen,3,(drawn routing point),53.0,165.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hui_shen,4,Kamchatka (one proposal),53.06393,158.62751,c. 460,out,conjectural,"GeoNames cities1000 id 2122104 (Petropavlovsk-Kamchatsky, RU)",Fusang,one of the proposed locations
+hui_shen,5,(drawn routing point),52.0,-170.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+hui_shen,6,British Columbia (18th-century American claim),48.42833,-123.36472,c. 460,out,conjectural,"Wikipedia coordinates of the linked article 'Victoria, British Columbia'",Fusang#The Americas,18th-century European maps put Fusang here
+brendan,0,"Mount Brandon, Kerry",52.23511,-10.25434,c. 530,out,approximate,Wikipedia coordinates of the linked article 'Mount Brandon',Saint Brendan#Foundations,he is supposed to have embarked from here
+brendan,1,(drawn routing point),56.0,-10.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+brendan,2,Faroe Islands (one reading of his island),62.0,-6.78333,c. 531,out,conjectural,Wikipedia coordinates of the linked article 'Faroe Islands',Saint Brendan#Saint Brendan's Island,
+brendan,3,Iceland (volcanic 'Hell'),64.14583,-21.9425,c. 532,out,conjectural,Wikipedia coordinates of the linked article 'Reykjavík',Saint Brendan#The Voyage of Saint Brendan the Abbot,fiery slag read as Icelandic volcanoes
+brendan,4,(drawn routing point),60.0,-40.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+brendan,5,North America (the modern claim),48.54167,-56.125,c. 535,out,conjectural,Wikipedia coordinates of the linked article 'Newfoundland (island)',Saint Brendan#Tale of reaching North America,no reliable evidence
+brendan,6,(drawn routing point),50.0,-30.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+brendan,7,Ireland,52.23511,-10.25434,c. 537,back,conjectural,Wikipedia coordinates of the linked article 'Mount Brandon',Saint Brendan#The Voyage of Saint Brendan the Abbot,returns after seven years
+xuanzang,0,Chang'an,34.30833,108.85833,629,out,known,Wikipedia coordinates of the linked article 'Chang'an',Xuanzang#Pilgrimage,
+xuanzang,1,(drawn routing point),38.9,100.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xuanzang,2,(drawn routing point),40.1,94.7,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xuanzang,3,Agni (Karasahr),42.06321,86.57185,629,out,approximate,"GeoNames cities1000 id 1529031 (Yanqi, CN)",Xuanzang#Kingdom of Agni,drawn at Yanqi
+xuanzang,4,Kuchi (Kucha),41.71556,82.93222,629,out,known,Wikipedia coordinates of the linked article 'Kucha',Xuanzang#Kingdom of Kuchi,
+xuanzang,5,Aksu,41.18418,80.27921,630,out,known,"GeoNames cities1000 id 1529660 (Aqsu, CN)",Xuanzang#Baluka and other kingdoms,
+xuanzang,6,"Tokmak, court of the Turkic khagan",42.84194,75.30149,630,out,known,"GeoNames cities1000 id 1527199 (Tokmok, KG)",Xuanzang#Baluka and other kingdoms,
+xuanzang,7,Tashkent,41.26465,69.21627,630,out,known,"GeoNames cities1000 id 1512569 (Tashkent, UZ)",Xuanzang#Baluka and other kingdoms,
+xuanzang,8,Samarkand,39.65456,66.96445,630,out,approximate,"GeoNames cities1000 id 1216265 (Samarkand, UZ)",Xuanzang#Baluka and other kingdoms,
+xuanzang,9,Balkh,36.75635,66.8972,630,out,approximate,"GeoNames cities1000 id 1147290 (Balkh, AF)",Xuanzang#Baluka and other kingdoms,
+xuanzang,10,Bamiyan,34.82156,67.82734,630,out,known,"GeoNames cities1000 id 1147242 (Bāmyān, AF)",Xuanzang#Kingdom of Bamiyana,
+xuanzang,11,Gandhara (Peshawar),34.01444,71.5675,631,out,approximate,Wikipedia coordinates of the linked article 'Peshawar',"Xuanzang#Kingdom of Lampa, Nagarahara, and Gandhara",
+xuanzang,12,Kashmir,34.08565,74.80555,631,out,approximate,"GeoNames cities1000 id 1255634 (Srinagar, IN)","Xuanzang#Kingdom of Udayana, Kashmira",drawn at Srinagar
+xuanzang,13,Mathura,27.5035,77.67215,633,out,known,"GeoNames cities1000 id 1263364 (Mathura, IN)","Xuanzang#Kingdoms of Takka, Jalamdhara, Sthanesvara, Mathura, Matipura, Kapitha",
+xuanzang,14,Kannauj,27.05524,79.9188,634,out,known,"GeoNames cities1000 id 1268011 (Kannauj, IN)","Xuanzang#Kingdoms of Kanyakubja, Ayodhya, Prayaga, Kausambi, Visaka",
+xuanzang,15,Shravasti,27.51708,82.05061,634,out,known,Wikipedia coordinates of the linked article 'Shravasti',"Xuanzang#Kingdoms of Sravasti Kushinagara, Baranasi, Nepala",
+xuanzang,16,Kushinagar,26.741,83.888,635,out,known,Wikipedia coordinates of the linked article 'Kushinagar',"Xuanzang#Kingdoms of Sravasti Kushinagara, Baranasi, Nepala",
+xuanzang,17,Varanasi,25.31889,83.01278,635,out,known,Wikipedia coordinates of the linked article 'Varanasi',"Xuanzang#Kingdoms of Sravasti Kushinagara, Baranasi, Nepala",
+xuanzang,18,Nalanda,25.02828,85.42079,637,out,known,"GeoNames cities1000 id 1258864 (Rājgīr, IN)","Xuanzang#Kingdoms of Magadha, Iranaparvata, Champa, Kajangala, Kamarupa",studied at Nalanda; drawn at nearby Rajgir
+xuanzang,19,Kanchipuram,12.83515,79.70006,640,out,known,"GeoNames cities1000 id 1268159 (Kanchipuram, IN)","Xuanzang#Kingdoms of Kalinga, Multan, Andhra, Chola, Dravida and Malakuta",
+xuanzang,20,Nashik,19.99727,73.79096,641,out,known,"GeoNames cities1000 id 1261731 (Nashik, IN)","Xuanzang#Kingdoms of Kalinga, Multan, Andhra, Chola, Dravida and Malakuta",
+xuanzang,21,Nalanda again,25.02828,85.42079,642,back,known,"GeoNames cities1000 id 1258864 (Rājgīr, IN)","Xuanzang#Kingdoms of Kalinga, Multan, Andhra, Chola, Dravida and Malakuta",
+xuanzang,22,"Kannauj, farewell from Harsha",27.05524,79.9188,643,back,approximate,"GeoNames cities1000 id 1268011 (Kannauj, IN)",Xuanzang#Return to China,
+xuanzang,23,Khyber Pass,34.0988,71.14108,643,back,known,"GeoNames cities1000 id 1172208 (Landi Kotal, PK)",Xuanzang#Return to China,drawn at Landi Kotal
+xuanzang,24,(drawn routing point),37.0,72.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xuanzang,25,Kashgar,39.4681,75.9938,644,back,known,Wikipedia coordinates of the linked article 'Kashgar',Xuanzang#Return to China,
+xuanzang,26,Khotan,37.10927,79.93433,644,back,known,"GeoNames cities1000 id 1281019 (Gujangbagh, CN)",Xuanzang#Return to China,
+xuanzang,27,Dunhuang,40.14111,94.66389,644,back,known,Wikipedia coordinates of the linked article 'Dunhuang',Xuanzang#Return to China,
+xuanzang,28,(drawn routing point),38.9,100.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+xuanzang,29,Chang'an,34.30833,108.85833,645-01,back,known,Wikipedia coordinates of the linked article 'Chang'an',Xuanzang#Return to China,arrived on the seventh day of the first month of 645
+ibn_fadlan,0,Baghdad,33.34058,44.40088,921-06-21,out,known,"GeoNames cities1000 id 98182 (Baghdad, IQ)",Ibn Fadlan#The embassy,left on 21 June 921
+ibn_fadlan,1,(drawn routing point),34.8,48.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_fadlan,2,(drawn routing point),35.6,51.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_fadlan,3,(drawn routing point),36.2,59.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_fadlan,4,Bukhara,39.77026,64.43069,921,out,known,"GeoNames cities1000 id 1217662 (Bukhara, UZ)",Ibn Fadlan#The embassy,caravan route towards Bukhara
+ibn_fadlan,5,Khwarazm (Gurganj),42.32613,59.15307,921,out,approximate,"GeoNames cities1000 id 601608 (Köneürgenç, TM)",Ibn Fadlan#The embassy,the article names the city of Gurgan; Yaqut quotes his Khwarazm section; drawn at Gurganj
+ibn_fadlan,6,(drawn routing point),45.5,57.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_fadlan,7,Ural River (Pechenegs),51.24601,51.42558,922,out,approximate,"GeoNames cities1000 id 608668 (Oral, KZ)",Ibn Fadlan#The embassy,the Pechenegs on the Ural River; drawn at Oral
+ibn_fadlan,8,Bashkir lands,54.74306,55.96779,922,out,conjectural,"GeoNames cities1000 id 479561 (Ufa, RU)",Ibn Fadlan#The embassy,the Bashkirs in central Russia
+ibn_fadlan,9,"Bolghar, capital of the Volga Bulgars",54.97417,49.03083,922-05-12,out,known,"GeoNames cities1000 id 570990 (Bolgar, RU)",Ibn Fadlan#The embassy,reached on 12 May 922
+bjarni,0,Iceland (drawn at Reykjavik),64.14583,-21.9425,986,out,approximate,Wikipedia coordinates of the linked article 'Reykjavík',Bjarni Herjólfsson#Sighting of the American coastline,sailed from Iceland to find his father; port not named
+bjarni,1,(drawn routing point),60.0,-35.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bjarni,2,"A wooded land, perhaps Newfoundland",51.375,-55.61639,986,out,conjectural,"Wikipedia coordinates of the linked article 'St. Anthony, Newfoundland and Labrador'",Bjarni Herjólfsson#Legacy,"Oleson: the three lands were Newfoundland, Labrador and Baffin Island"
+bjarni,3,"A flat wooded land, perhaps Labrador",56.54193,-61.69549,986,out,conjectural,"GeoNames cities1000 id 6943610 (Nain, CA)",Bjarni Herjólfsson#Legacy,
+bjarni,4,"A mountainous land, perhaps Baffin Island",63.74697,-68.51727,986,out,conjectural,"GeoNames cities1000 id 5983720 (Iqaluit, CA)",Bjarni Herjólfsson#Legacy,
+bjarni,5,(drawn routing point),63.0,-55.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bjarni,6,"Herjolfsnes, Greenland",59.98333,-44.7,986,out,known,Wikipedia coordinates of the linked article 'Herjolfsnes',Bjarni Herjólfsson#Sighting of the American coastline,settled with his father
+bjarni,7,(drawn routing point),61.0,-20.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bjarni,8,Norway (drawn at Bergen),60.39299,5.32415,c. 1000,back,approximate,"GeoNames cities1000 id 3161732 (Bergen, NO)",Bjarni Herjólfsson#Sighting of the American coastline,returned to Norway after his father's death
+leif,0,"Brattahlid, Greenland",61.15222,-45.515,c. 1000,out,known,Wikipedia coordinates of the linked article 'Brattahlíð',Leif Erikson#Account in the Saga of the Greenlanders,Erik the Red's farm
+leif,1,(drawn routing point),62.0,-50.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+leif,2,"Helluland, usually Baffin Island",63.74697,-68.51727,c. 1000,out,conjectural,"GeoNames cities1000 id 5983720 (Iqaluit, CA)",Leif Erikson#Account in the Saga of the Greenlanders,flat-stone land
+leif,3,"Markland, usually Labrador",56.54193,-61.69549,c. 1000,out,conjectural,"GeoNames cities1000 id 6943610 (Nain, CA)",Leif Erikson#Account in the Saga of the Greenlanders,forest land
+leif,4,"Leifsbudir, perhaps L'Anse aux Meadows",51.59639,-55.53333,c. 1000,out,approximate,Wikipedia coordinates of the linked article 'L'Anse aux Meadows',Leif Erikson#Archeological evidence of Vinland,"the identification is suggested, not certain"
+leif,5,(drawn routing point),55.0,-54.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+leif,6,(drawn routing point),59.5,-48.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+leif,7,Brattahlid,61.15222,-45.515,c. 1001,back,known,Wikipedia coordinates of the linked article 'Brattahlíð',Leif Erikson#Account in the Saga of the Greenlanders,
+karlsefni,0,"Brattahlid, Greenland",61.15222,-45.515,c. 1005,out,known,Wikipedia coordinates of the linked article 'Brattahlíð',Thorfinn Karlsefni#Vinland,left Greenland on Leif's route
+karlsefni,1,(drawn routing point),62.0,-50.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,2,Helluland (Baffin Island),63.74697,-68.51727,c. 1005,out,conjectural,"GeoNames cities1000 id 5983720 (Iqaluit, CA)",Thorfinn Karlsefni#Vinland,following the route taken by Leif
+karlsefni,3,Markland (Labrador),56.54193,-61.69549,c. 1005,out,conjectural,"GeoNames cities1000 id 6943610 (Nain, CA)",Thorfinn Karlsefni#Vinland,
+karlsefni,4,"Vinland camp, perhaps L'Anse aux Meadows",51.59639,-55.53333,c. 1006,out,approximate,Wikipedia coordinates of the linked article 'L'Anse aux Meadows',Thorfinn Karlsefni#Vinland,may have been the colony
+karlsefni,5,(drawn routing point),48.5,-59.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,6,"Hop, further south (Gulf of St Lawrence?)",47.61814,-65.65112,c. 1007,out,conjectural,"GeoNames cities1000 id 6696259 (Bathurst, CA)",Leif Erikson#Archeological evidence of Vinland,Vinland may have been around the Gulf of St Lawrence; butternuts do not grow north of New Brunswick; drawn at Bathurst
+karlsefni,7,(drawn routing point),48.5,-59.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,8,(drawn routing point),55.0,-54.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,9,(drawn routing point),59.5,-48.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,10,Greenland,61.15222,-45.515,c. 1008,back,known,Wikipedia coordinates of the linked article 'Brattahlíð',Thorfinn Karlsefni#Vinland,Thorfinn reached Greenland safely
+karlsefni,11,(drawn routing point),62.0,-33.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+karlsefni,12,"Glaumbaer, Iceland",65.74611,-19.63944,c. 1010,back,approximate,"GeoNames cities1000 id 2627309 (Sauðárkrókur, IS)",Gudrid Thorbjarnardóttir#Biography,the family returned to the Glaumbaer farm; drawn at nearby Saudarkrokur
+gudrid_rome,0,"Glaumbaer, Iceland",65.74611,-19.63944,c. 1025,out,approximate,"GeoNames cities1000 id 2627309 (Sauðárkrókur, IS)",Gudrid Thorbjarnardóttir#Biography,drawn at nearby Saudarkrokur
+gudrid_rome,1,(drawn routing point),64.0,-13.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,2,(drawn routing point),60.5,-2.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,3,(drawn routing point),55.0,7.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,4,(drawn routing point),50.0,9.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,5,(drawn routing point),45.5,10.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,6,Rome,41.89333,12.48278,c. 1026,out,known,Wikipedia coordinates of the linked article 'Rome',Gudrid Thorbjarnardóttir#Biography,the destination; the route is not recorded
+gudrid_rome,7,(drawn routing point),45.5,10.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,8,(drawn routing point),50.0,9.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,9,(drawn routing point),55.0,7.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,10,(drawn routing point),60.5,-2.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,11,(drawn routing point),64.0,-13.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+gudrid_rome,12,"Glaumbaer, Iceland",65.74611,-19.63944,c. 1027,back,approximate,"GeoNames cities1000 id 2627309 (Sauðárkrókur, IS)",Gudrid Thorbjarnardóttir#Biography,
+kupe,0,Hawaiki (drawn at Raiatea),-16.82,-151.44,c. 1180,out,conjectural,Wikipedia coordinates of the linked article 'Raʻiātea',Kupe#Voyage to New Zealand,Hawaiki's location is uncertain; his mother was from Raiatea
+kupe,1,(drawn routing point),-25.0,-165.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kupe,2,"Hokianga Harbour, first landing",-35.5258,173.3786,c. 1180,out,approximate,Wikipedia coordinates of the linked article 'Hokianga',Kupe#Voyage to New Zealand,
+kupe,3,(drawn routing point),-38.0,178.8,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kupe,4,Wellington Harbour,-41.26667,174.85,c. 1181,out,approximate,Wikipedia coordinates of the linked article 'Wellington Harbour',Kupe#Voyage to New Zealand,
+kupe,5,(drawn routing point),-38.0,178.8,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kupe,6,"Hokianga, the great return",-35.5258,173.3786,c. 1200,back,approximate,Wikipedia coordinates of the linked article 'Hokianga',Kupe#Voyage to New Zealand,Te Hokianga-nui-a-Kupe
+kupe,7,(drawn routing point),-25.0,-165.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kupe,8,Hawaiki,-16.82,-151.44,c. 1200,back,conjectural,Wikipedia coordinates of the linked article 'Raʻiātea',Kupe#Voyage to New Zealand,
+polynesia_america,0,Marquesas Islands,-8.9,-139.6,c. 1150,out,conjectural,Wikipedia coordinates of the linked article 'Marquesas Islands',Polynesian navigation#Pre-Columbian contact with the Americas,eastern Polynesia; the genetic signal is strongest in the east (Ioannidis 2020)
+polynesia_america,1,(drawn routing point),-5.0,-110.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+polynesia_america,2,Pacific coast of South America,1.79112,-78.79275,c. 1200,out,conjectural,"GeoNames cities1000 id 3666640 (Tumaco, CO)",Polynesian navigation#Pre-Columbian contact with the Americas,Ioannidis 2020 links the Native American DNA to people of modern Colombia; drawn at Tumaco
+polynesia_america,3,(drawn routing point),-15.0,-110.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+polynesia_america,4,Marquesas Islands,-8.9,-139.6,c. 1230,back,conjectural,Wikipedia coordinates of the linked article 'Marquesas Islands',Polynesian navigation#Pre-Columbian contact with the Americas,
+madoc,0,Llandrillo (Rhos-on-Sea),53.309,-3.738,1170,out,approximate,Wikipedia coordinates of the linked article 'Rhos-on-Sea',Madoc#Family story,Powel (1584): set sail from Llandrillo
+madoc,1,(drawn routing point),51.5,-9.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+madoc,2,(drawn routing point),42.0,-40.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+madoc,3,(drawn routing point),30.0,-70.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+madoc,4,"'Terra Florida or thereabouts' (Dee, 1580)",28.0,-82.0,1170,out,conjectural,Wikipedia coordinates of the linked article 'Florida',Madoc#Family story,John Dee's claim
+carpine,0,Lyon,45.74906,4.84789,1245-04-16,out,known,"GeoNames cities1000 id 2996944 (Lyon, FR)",Giovanni da Pian del Carpine#Travels,embarked Easter Day 1245
+carpine,1,Wroclaw,51.10286,17.03006,1245,out,known,"GeoNames cities1000 id 3081368 (Wrocław, PL)",Giovanni da Pian del Carpine#Travels,joined by Benedict of Poland
+carpine,2,Kiev,50.45466,30.5238,1246-02,out,known,"GeoNames cities1000 id 703448 (Kyiv, UA)",Giovanni da Pian del Carpine#Travels,
+carpine,3,Kaniv,49.75187,31.47003,1246-02,out,known,"GeoNames cities1000 id 706900 (Kaniv, UA)",Giovanni da Pian del Carpine#Travels,entered the Tatar posts
+carpine,4,(drawn routing point),47.5,39.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,5,Batu's camp on the Volga,48.71378,44.4976,1246-04-08,out,approximate,"GeoNames cities1000 id 472757 (Volgograd, RU)",Giovanni da Pian del Carpine#Travels,"left Batu's ordu on Easter Day, 8 April 1246; drawn on the lower Volga"
+carpine,6,Ural River,51.24601,51.42558,1246-04,out,approximate,"GeoNames cities1000 id 608668 (Oral, KZ)",Giovanni da Pian del Carpine#Travels,the Jaec
+carpine,7,Syr Darya,44.85278,65.50917,1246-05,out,approximate,"GeoNames cities1000 id 1519922 (Kyzylorda, KZ)",Giovanni da Pian del Carpine#Travels,'a big river whose name we do not know'
+carpine,8,Lakes of Dzungaria,46.74535,82.95847,1246-06,out,conjectural,"GeoNames cities1000 id 1529167 (Tacheng, CN)",Giovanni da Pian del Carpine#Travels,along the shores of the lakes of Dzungaria
+carpine,9,(drawn routing point),47.5,92.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,10,"Sira Orda, near Karakorum",47.19245,102.81349,1246-07-22,out,approximate,"GeoNames cities1000 id 7648891 (Kharkhorin, MN)",Giovanni da Pian del Carpine#Travels,reached on 22 July 1246
+carpine,11,(drawn routing point),47.5,92.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,12,(drawn routing point),46.0,82.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,13,(drawn routing point),44.8,65.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,14,(drawn routing point),51.2,51.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,15,(drawn routing point),48.7,44.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+carpine,16,Kiev,50.45466,30.5238,1247-06-10,back,known,"GeoNames cities1000 id 703448 (Kyiv, UA)",Giovanni da Pian del Carpine#Travels,reached on 10 June 1247
+carpine,17,Cologne,50.93333,6.95,1247,back,known,"GeoNames cities1000 id 2886242 (Köln, DE)",Giovanni da Pian del Carpine#Travels,crossed the Rhine at Cologne
+carpine,18,Lyon,45.74906,4.84789,1247-11,back,known,"GeoNames cities1000 id 2996944 (Lyon, FR)",Giovanni da Pian del Carpine#Travels,found the Pope still at Lyon
+rubruck,0,Constantinople,41.01384,28.94966,1253-05-07,out,known,"GeoNames cities1000 id 745044 (Istanbul, TR)",William of Rubruck#Mission,set out 7 May 1253; first stop Constantinople
+rubruck,1,"Sudak, Crimea",44.84924,34.97471,1253-05,out,known,"GeoNames cities1000 id 692315 (Sudak, UA)",William of Rubruck#Travels,
+rubruck,2,(drawn routing point),47.2,39.7,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,3,"Sarai, Batu Khan's camp",47.40769,47.25391,1253-08,out,approximate,"GeoNames cities1000 id 550671 (Kharabali, RU)",William of Rubruck#Travels,Sarai near the Volga; drawn near the site
+rubruck,4,(drawn routing point),51.2,51.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,5,(drawn routing point),44.8,65.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,6,(drawn routing point),43.5,77.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,7,(drawn routing point),46.0,88.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,8,Karakorum,47.19245,102.81349,1253-12-27,out,known,"GeoNames cities1000 id 7648891 (Kharkhorin, MN)",William of Rubruck#Travels,arrived late December 1253
+rubruck,9,(drawn routing point),46.0,88.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,10,(drawn routing point),43.5,77.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,11,(drawn routing point),44.8,65.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,12,"Sarai, with Batu again",47.40769,47.25391,1254-09,back,approximate,"GeoNames cities1000 id 550671 (Kharabali, RU)",William of Rubruck#Travels,two weeks in late September 1254
+rubruck,13,(drawn routing point),42.0,47.9,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,14,Nakhchivan,39.20889,45.41222,1254-12-25,back,known,"GeoNames cities1000 id 147429 (Naxçıvan, AZ)",William of Rubruck#Travels,Christmas 1254
+rubruck,15,(drawn routing point),38.5,43.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,16,(drawn routing point),37.0,38.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+rubruck,17,County of Tripoli,34.43352,35.84415,1255-08-15,back,known,"GeoNames cities1000 id 266826 (Tripoli, LB)",William of Rubruck#Travels,reached on 15 August 1255
+marco_polo,0,Venice,45.43713,12.33265,1271,out,known,"GeoNames cities1000 id 3164603 (Venice, IT)",Marco Polo#Early life and Asian travel,
+marco_polo,1,(drawn routing point),36.5,22.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,2,Acre,32.92814,35.07647,1271,out,known,"GeoNames cities1000 id 295721 (Acre, IL)",Marco Polo#Early life and Asian travel,
+marco_polo,3,(drawn routing point),33.5,44.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,4,(drawn routing point),29.6,52.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,5,Hormuz,27.1865,56.2808,1272,out,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Marco Polo#Early life and Asian travel,rode to Hormuz; drawn at modern Bandar Abbas
+marco_polo,6,(drawn routing point),30.3,57.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,7,(drawn routing point),36.7,66.9,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,8,Crossing of the Pamir,38.17023,73.96674,1272,out,approximate,"GeoNames cities1000 id 1220962 (Murghob, TJ)",Marco Polo#Commemoration,described the Marco Polo sheep crossing the Pamir
+marco_polo,9,(drawn routing point),39.5,76.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,10,(drawn routing point),37.1,79.9,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,11,(drawn routing point),40.1,94.7,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,12,(drawn routing point),39.0,106.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,13,Shangdu,42.25005,116.00798,1275,out,known,"GeoNames cities1000 id 8054418 (Shangdu, CN)",Marco Polo#Early life and Asian travel,Kublai Khan's palace; drawn at nearby Zhenglan Qi
+marco_polo,14,Khanbaliq (Beijing),39.9075,116.39723,1276,out,approximate,"GeoNames cities1000 id 1816670 (Beijing, CN)",Marco Polo#Authenticity and veracity,sceptics allow he may have gone no further
+marco_polo,15,Zaitun (Quanzhou),24.91389,118.58583,1291,back,known,"GeoNames cities1000 id 1797353 (Quanzhou, CN)",Marco Polo#Role of Rustichello,left with the wedding party on 14 junks
+marco_polo,16,(drawn routing point),10.0,110.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,17,Singapore,1.28967,103.85007,1291,back,known,"GeoNames cities1000 id 1880252 (Singapore, SG)",Marco Polo#Role of Rustichello,
+marco_polo,18,Sumatra,5.1801,97.1507,1292,back,known,"GeoNames cities1000 id 1214658 (Lhokseumawe, ID)",Marco Polo#Role of Rustichello,drawn on the north Sumatran coast
+marco_polo,19,(drawn routing point),6.0,84.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,20,Southern tip of India,8.09008,77.53841,1292,back,approximate,"GeoNames cities1000 id 1268008 (Kanniyākumāri, IN)",Marco Polo#Role of Rustichello,
+marco_polo,21,(drawn routing point),15.0,70.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,22,(drawn routing point),24.0,59.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,23,Hormuz,27.1865,56.2808,1293,back,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Marco Polo#Role of Rustichello,left the princess's party here
+marco_polo,24,(drawn routing point),32.0,51.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,25,(drawn routing point),38.1,46.3,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,26,Trebizond,41.005,39.72694,1294,back,known,"GeoNames cities1000 id 738648 (Trabzon, TR)",Marco Polo#Role of Rustichello,
+marco_polo,27,Constantinople,41.01384,28.94966,1294,back,known,"GeoNames cities1000 id 745044 (Istanbul, TR)",Marco Polo#Early life and Asian travel,
+marco_polo,28,(drawn routing point),36.5,22.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+marco_polo,29,Venice,45.43713,12.33265,1295,back,known,"GeoNames cities1000 id 3164603 (Venice, IT)",Marco Polo#Early life and Asian travel,after 24 years
+bar_sauma,0,Khanbaliq (Beijing),39.9075,116.39723,c. 1275,out,known,"GeoNames cities1000 id 1816670 (Beijing, CN)",Rabban Bar Sauma,set out from Yuan China
+bar_sauma,1,Former Tangut country,38.46806,106.27306,c. 1276,out,approximate,"GeoNames cities1000 id 1786657 (Yinchuan, CN)",Rabban Bar Sauma#Pilgrimage to Jerusalem,drawn at Yinchuan
+bar_sauma,2,(drawn routing point),40.1,94.7,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,3,Khotan,37.10927,79.93433,c. 1277,out,known,"GeoNames cities1000 id 1281019 (Gujangbagh, CN)",Rabban Bar Sauma#Pilgrimage to Jerusalem,
+bar_sauma,4,Kashgar,39.4681,75.9938,c. 1277,out,known,Wikipedia coordinates of the linked article 'Kashgar',Rabban Bar Sauma#Pilgrimage to Jerusalem,
+bar_sauma,5,Taraz,42.9,71.36667,c. 1278,out,known,Wikipedia coordinates of the linked article 'Taraz',Rabban Bar Sauma#Pilgrimage to Jerusalem,
+bar_sauma,6,Khorasan,36.29807,59.60567,c. 1279,out,approximate,"GeoNames cities1000 id 124665 (Mashhad, IR)",Rabban Bar Sauma#Pilgrimage to Jerusalem,drawn at Mashhad
+bar_sauma,7,Maragha,37.39206,46.23909,c. 1280,out,known,"GeoNames cities1000 id 124877 (Marāgheh, IR)",Rabban Bar Sauma#Pilgrimage to Jerusalem,
+bar_sauma,8,Baghdad,33.34058,44.40088,1281,out,known,"GeoNames cities1000 id 98182 (Baghdad, IQ)",Rabban Bar Sauma#Pilgrimage to Jerusalem,years spent here
+bar_sauma,9,(drawn routing point),38.5,41.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,10,Trebizond or Samsun,41.005,39.72694,1287,out,approximate,"GeoNames cities1000 id 738648 (Trabzon, TR)",Rabban Bar Sauma#Ambassador to Europe,to the Black Sea
+bar_sauma,11,Constantinople,41.01384,28.94966,1287,out,known,"GeoNames cities1000 id 745044 (Istanbul, TR)",Rabban Bar Sauma#Ambassador to Europe,audience with Andronikos II
+bar_sauma,12,(drawn routing point),37.5,23.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,13,(drawn routing point),37.8,15.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,14,"Naples, battle in the Bay of Sorrento",40.85216,14.26811,1287-06-24,out,known,"GeoNames cities1000 id 3172394 (Naples, IT)",Rabban Bar Sauma#Ambassador to Europe,watched the sea battle of 24 June 1287
+bar_sauma,15,Rome,41.89333,12.48278,1287,out,known,Wikipedia coordinates of the linked article 'Rome',Rabban Bar Sauma#Ambassador to Europe,
+bar_sauma,16,Genoa,44.40478,8.94439,1287,out,known,"GeoNames cities1000 id 3176219 (Genoa, IT)",Rabban Bar Sauma#Ambassador to Europe,
+bar_sauma,17,"Paris, court of Philip IV",48.85341,2.3488,1287,out,known,"GeoNames cities1000 id 2988507 (Paris, FR)",Rabban Bar Sauma#Ambassador to Europe,
+bar_sauma,18,"Bordeaux, Edward I of England",44.84124,-0.58046,1287,out,approximate,"GeoNames cities1000 id 3031582 (Bordeaux, FR)",Rabban Bar Sauma#Ambassador to Europe,probably at Bordeaux
+bar_sauma,19,Genoa (winter 1287 to 1288),44.40478,8.94439,1288-01,back,known,"GeoNames cities1000 id 3176219 (Genoa, IT)",Rabban Bar Sauma#Ambassador to Europe,
+bar_sauma,20,"Rome, with Pope Nicholas IV",41.89333,12.48278,1288-03,back,known,Wikipedia coordinates of the linked article 'Rome',Rabban Bar Sauma#Ambassador to Europe,Palm Sunday 1288
+bar_sauma,21,(drawn routing point),37.8,15.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,22,(drawn routing point),35.5,28.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,23,(drawn routing point),36.2,36.1,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+bar_sauma,24,Baghdad,33.34058,44.40088,1288,back,known,"GeoNames cities1000 id 98182 (Baghdad, IQ)",Rabban Bar Sauma#Ambassador to Europe,returned in 1288
+mali_fleet,0,Atlantic coast of Mali (point not recorded),13.45274,-16.57803,c. 1311,out,conjectural,"GeoNames cities1000 id 2413876 (Banjul, GM)",Abu Bakr II#Musa's account,drawn at the Gambia estuary
+mali_fleet,1,(drawn routing point),14.0,-25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+mali_fleet,2,Lost in the Canary Current (fate unknown),13.5,-32.0,c. 1312,out,conjectural,position stated or implied in the article text (see note),Abu Bakr II#Interpretation,drawn point: the current flows west towards the Americas
+ibn_battuta,0,Tangier,35.76727,-5.79975,1325-06-14,out,known,"GeoNames cities1000 id 2530335 (Tangier, MA)",Ibn Battuta#First pilgrimage,left on 14 June 1325
+ibn_battuta,1,Tlemcen,34.87833,-1.315,1325,out,known,"GeoNames cities1000 id 2475687 (Tlemcen, DZ)",Ibn Battuta#First pilgrimage,
+ibn_battuta,2,Bejaia,36.75587,5.08433,1325,out,known,"GeoNames cities1000 id 2505329 (Béjaïa, DZ)",Ibn Battuta#First pilgrimage,
+ibn_battuta,3,Tunis,36.81897,10.16579,1325,out,known,"GeoNames cities1000 id 2464470 (Tunis, TN)",Ibn Battuta#First pilgrimage,
+ibn_battuta,4,(drawn routing point),32.9,13.2,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,5,Alexandria,31.20176,29.91582,1326-04,out,known,"GeoNames cities1000 id 361058 (Alexandria, EG)",Ibn Battuta#First pilgrimage,early spring 1326
+ibn_battuta,6,Cairo,30.06263,31.24967,1326,out,known,"GeoNames cities1000 id 360630 (Cairo, EG)",Ibn Battuta#First pilgrimage,
+ibn_battuta,7,Damascus,33.5102,36.29128,1326,out,known,"GeoNames cities1000 id 170654 (Damascus, SY)",Ibn Battuta#First pilgrimage,
+ibn_battuta,8,Mecca,21.42664,39.82563,1326,out,known,"GeoNames cities1000 id 104515 (Makkah, SA)",Ibn Battuta#First pilgrimage,
+ibn_battuta,9,(drawn routing point),28.0,42.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,10,Baghdad,33.34058,44.40088,1327-06,out,known,"GeoNames cities1000 id 98182 (Baghdad, IQ)",Ibn Battuta#Iraq and Iran,June 1327
+ibn_battuta,11,Tabriz,38.08,46.2919,1327,out,known,"GeoNames cities1000 id 113646 (Tabriz, IR)",Ibn Battuta#Iraq and Iran,
+ibn_battuta,12,Mecca,21.42664,39.82563,1328,out,known,"GeoNames cities1000 id 104515 (Makkah, SA)",Ibn Battuta#Iraq and Iran,
+ibn_battuta,13,Aden,12.77957,45.03852,1329,out,known,"GeoNames cities1000 id 415189 (Aden, YE)",Ibn Battuta#Arabia,1329 or 1331
+ibn_battuta,14,Zeila,11.3539,43.4731,1330,out,known,"GeoNames cities1000 id 52078 (Saylac, SO)",Ibn Battuta#Somalia,
+ibn_battuta,15,Mogadishu,2.03711,45.34375,1330,out,known,"GeoNames cities1000 id 53654 (Mogadishu, SO)",Ibn Battuta#Somalia,
+ibn_battuta,16,Mombasa,-4.05466,39.66359,1330,out,known,"GeoNames cities1000 id 186301 (Mombasa, KE)",Ibn Battuta#Swahili coast,
+ibn_battuta,17,Kilwa,-8.96,39.5128,1330,out,known,Wikipedia coordinates of the linked article 'Kilwa Kisiwani',Ibn Battuta#Swahili coast,
+ibn_battuta,18,(drawn routing point),-2.0,45.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,19,(drawn routing point),12.5,53.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,20,Oman and Hormuz,27.1865,56.2808,1330,out,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Ibn Battuta#Swahili coast,
+ibn_battuta,21,(drawn routing point),24.0,52.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,22,Mecca,21.42664,39.82563,1330,out,known,"GeoNames cities1000 id 104515 (Makkah, SA)",Ibn Battuta#Swahili coast,hajj of 1330 (or 1332)
+ibn_battuta,23,(drawn routing point),31.5,34.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,24,Anatolia (Konya),37.87135,32.48464,1331,out,approximate,"GeoNames cities1000 id 306571 (Konya, TR)",Ibn Battuta#Anatolia,parts of the Anatolian loop are doubted
+ibn_battuta,25,Sinope,42.02683,35.16253,1332,out,known,"GeoNames cities1000 id 739600 (Sinop, TR)",Ibn Battuta#Central Asia,
+ibn_battuta,26,Azov,47.1069,39.41486,1332,out,known,"GeoNames cities1000 id 580054 (Azov, RU)",Ibn Battuta#Central Asia,
+ibn_battuta,27,Bolghar (doubted),54.97417,49.03083,1332,out,conjectural,"GeoNames cities1000 id 570990 (Bolgar, RU)",Ibn Battuta#Historicity,considered very unlikely by scholars
+ibn_battuta,28,Astrakhan,46.34968,48.04076,1332,out,known,"GeoNames cities1000 id 580497 (Astrakhan, RU)",Ibn Battuta#Central Asia,
+ibn_battuta,29,Constantinople,41.01384,28.94966,1332,out,known,"GeoNames cities1000 id 745044 (Istanbul, TR)",Ibn Battuta#Anatolia,may have met Andronikos III in late 1332
+ibn_battuta,30,(drawn routing point),46.5,47.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,31,Bukhara,39.77026,64.43069,1333,out,known,"GeoNames cities1000 id 1217662 (Bukhara, UZ)",Ibn Battuta#Central Asia,
+ibn_battuta,32,Samarkand,39.65456,66.96445,1333,out,known,"GeoNames cities1000 id 1216265 (Samarkand, UZ)",Ibn Battuta#Central Asia,
+ibn_battuta,33,Balkh,36.75635,66.8972,1333,out,known,"GeoNames cities1000 id 1147290 (Balkh, AF)",Ibn Battuta#Central Asia,
+ibn_battuta,34,(drawn routing point),34.5,69.2,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,35,Delhi,28.65195,77.23149,1334,out,known,"GeoNames cities1000 id 1273294 (Delhi, IN)",Ibn Battuta#South Asia,years in the service of Muhammad bin Tughluq
+ibn_battuta,36,Calicut,11.24802,75.7804,1342,out,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Ibn Battuta#South Asia,
+ibn_battuta,37,Maldives,4.17521,73.50916,1343,out,known,"GeoNames cities1000 id 1282027 (Male, MV)",Ibn Battuta#South Asia,
+ibn_battuta,38,Sri Lanka,6.0461,80.2103,1344,out,known,"GeoNames cities1000 id 1246294 (Galle, LK)",Ibn Battuta#South Asia,drawn at Galle
+ibn_battuta,39,Chittagong,22.3384,91.83168,1345,out,known,"GeoNames cities1000 id 1205733 (Chattogram, BD)",Ibn Battuta#South Asia,
+ibn_battuta,40,"Samudra Pasai, Sumatra",5.1801,97.1507,1345,out,known,"GeoNames cities1000 id 1214658 (Lhokseumawe, ID)",Ibn Battuta#Southeast Asia,drawn at nearby Lhokseumawe
+ibn_battuta,41,(drawn routing point),2.5,101.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,42,(drawn routing point),1.2,104.4,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,43,(drawn routing point),10.0,110.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,44,(drawn routing point),22.0,117.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,45,Quanzhou (Zaitun),24.91389,118.58583,1345,out,known,"GeoNames cities1000 id 1797353 (Quanzhou, CN)",Ibn Battuta#China,arrived 1345
+ibn_battuta,46,Hangzhou,30.29365,120.16142,1346,out,approximate,"GeoNames cities1000 id 1808926 (Hangzhou, CN)",Ibn Battuta#China,his China chapters are questioned
+ibn_battuta,47,"Khanbaliq (Beijing), claimed",39.9075,116.39723,1346,out,conjectural,"GeoNames cities1000 id 1816670 (Beijing, CN)",Ibn Battuta#China,scholars question whether he went north of the south China ports
+ibn_battuta,48,Quanzhou,24.91389,118.58583,1346,back,known,"GeoNames cities1000 id 1797353 (Quanzhou, CN)",Ibn Battuta#Return,returned to Quanzhou in 1346
+ibn_battuta,49,(drawn routing point),10.0,110.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,50,(drawn routing point),1.2,104.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,51,(drawn routing point),5.8,95.3,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,52,(drawn routing point),6.0,80.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,53,Calicut,11.24802,75.7804,1347,back,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Ibn Battuta#Return,
+ibn_battuta,54,(drawn routing point),18.0,62.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,55,Strait of Hormuz,27.1865,56.2808,1347,back,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Ibn Battuta#Return,
+ibn_battuta,56,Basra,30.50852,47.7804,1347,back,known,"GeoNames cities1000 id 99532 (Basrah, IQ)",Ibn Battuta#Return,
+ibn_battuta,57,Damascus,33.5102,36.29128,1348,back,known,"GeoNames cities1000 id 170654 (Damascus, SY)",Ibn Battuta#Return,"1348, during the Black Death"
+ibn_battuta,58,Cairo,30.06263,31.24967,1348,back,known,"GeoNames cities1000 id 360630 (Cairo, EG)",Ibn Battuta#Return,
+ibn_battuta,59,Mecca,21.42664,39.82563,1348,back,known,"GeoNames cities1000 id 104515 (Makkah, SA)",Ibn Battuta#Return,
+ibn_battuta,60,Cairo,30.06263,31.24967,1349,back,approximate,"GeoNames cities1000 id 360630 (Cairo, EG)",Ibn Battuta#Return,
+ibn_battuta,61,(drawn routing point),34.0,20.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,62,Sardinia,39.23054,9.11917,1349,back,known,"GeoNames cities1000 id 2525473 (Cagliari, IT)",Ibn Battuta#Return,drawn at Cagliari
+ibn_battuta,63,(drawn routing point),37.0,2.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+ibn_battuta,64,Fez,34.03313,-5.00028,1349,back,known,"GeoNames cities1000 id 2548885 (Fes, MA)",Ibn Battuta#Return,
+ibn_battuta,65,Tangier,35.76727,-5.79975,1349-11,back,known,"GeoNames cities1000 id 2530335 (Tangier, MA)",Ibn Battuta#Return,home in 1349
+zheng_he_5,0,Quanzhou,24.91389,118.58583,1417-05-31,out,known,"GeoNames cities1000 id 1797353 (Quanzhou, CN)",Ming treasure voyages#Fifth voyage,tablet dated 31 May 1417
+zheng_he_5,1,(drawn routing point),21.0,112.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,2,Champa,13.77648,109.22367,1417,out,known,"GeoNames cities1000 id 1568574 (Qui Nhon, VN)",Ming treasure voyages#Fifth voyage,drawn at Quy Nhon
+zheng_he_5,3,(drawn routing point),6.0,108.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,4,Java,-7.24917,112.75083,1417,out,known,"GeoNames cities1000 id 1625822 (Surabaya, ID)",Ming treasure voyages#Fifth voyage,drawn at Surabaya
+zheng_he_5,5,(drawn routing point),-5.5,108.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,6,(drawn routing point),-2.0,106.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,7,Palembang,-2.91673,104.7458,1418,out,known,"GeoNames cities1000 id 1633070 (Palembang, ID)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,8,(drawn routing point),1.0,104.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,9,Malacca,2.196,102.2405,1418,out,known,"GeoNames cities1000 id 1734759 (Malacca, MY)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,10,Semudera,5.1801,97.1507,1418,out,known,"GeoNames cities1000 id 1214658 (Lhokseumawe, ID)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,11,(drawn routing point),6.0,90.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,12,Ceylon,6.0461,80.2103,1418,out,known,"GeoNames cities1000 id 1246294 (Galle, LK)",Ming treasure voyages#Fifth voyage,drawn at Galle
+zheng_he_5,13,Cochin,9.93988,76.26022,1418,out,known,"GeoNames cities1000 id 1273874 (Kochi, IN)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,14,Calicut,11.24802,75.7804,1418,out,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,15,(drawn routing point),21.0,63.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,16,Hormuz,27.1865,56.2808,1418,out,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,17,(drawn routing point),22.5,60.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,18,(drawn routing point),14.5,52.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,19,Aden,12.77957,45.03852,1419-01,out,known,"GeoNames cities1000 id 415189 (Aden, YE)",Ming treasure voyages#Fifth voyage,Chinese ships on the Aden coast in January 1419
+zheng_he_5,20,(drawn routing point),11.8,51.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,21,Mogadishu,2.03711,45.34375,1419-03,out,known,"GeoNames cities1000 id 53654 (Mogadishu, SO)",Ming treasure voyages#Fifth voyage,
+zheng_he_5,22,Brava,1.11333,44.03028,1419-03,out,known,Wikipedia coordinates of the linked article 'Barawa',Ming treasure voyages#Fifth voyage,
+zheng_he_5,23,Malindi,-3.21799,40.11692,1419-04,out,known,"GeoNames cities1000 id 187968 (Malindi, KE)",Ming treasure voyages#Fifth voyage,the furthest point
+zheng_he_5,24,(drawn routing point),0.0,60.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,25,(drawn routing point),6.0,80.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,26,(drawn routing point),5.8,95.3,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,27,(drawn routing point),2.5,101.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,28,(drawn routing point),1.2,104.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,29,(drawn routing point),10.0,110.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,30,(drawn routing point),22.0,117.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_5,31,China (port not recorded),24.91389,118.58583,1419-08-08,back,approximate,"GeoNames cities1000 id 1797353 (Quanzhou, CN)",Ming treasure voyages#Fifth voyage,back in China on 8 August 1419
+zheng_he_7,0,"Longwan, Nanjing",32.06083,118.77889,1431-01-19,out,known,Wikipedia coordinates of the linked article 'Nanjing',Ming treasure voyages#Seventh voyage,embarked 19 January 1431
+zheng_he_7,1,Liujiagang,31.44778,121.09389,1431-02-03,out,known,"GeoNames cities1000 id 1793703 (Taicang, CN)",Ming treasure voyages#Seventh voyage,drawn at Taicang
+zheng_he_7,2,Changle,36.70583,118.8275,1431-04-08,out,known,"GeoNames cities1000 id 1815669 (Changle, CN)",Ming treasure voyages#Seventh voyage,
+zheng_he_7,3,(drawn routing point),22.0,117.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,4,"Vijaya, Champa (Qui Nhon)",13.77648,109.22367,1432-01-27,out,known,"GeoNames cities1000 id 1568574 (Qui Nhon, VN)",Ming treasure voyages#Seventh voyage,arrived 27 January 1432
+zheng_he_7,5,(drawn routing point),6.0,108.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,6,(drawn routing point),-5.5,110.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,7,"Surabaya, Java",-7.24917,112.75083,1432-03-07,out,known,"GeoNames cities1000 id 1625822 (Surabaya, ID)",Ming treasure voyages#Seventh voyage,arrived 7 March 1432
+zheng_he_7,8,(drawn routing point),-5.5,108.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,9,(drawn routing point),-2.0,106.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,10,Palembang,-2.91673,104.7458,1432-07-24,out,known,"GeoNames cities1000 id 1633070 (Palembang, ID)",Ming treasure voyages#Seventh voyage,arrived 24 July 1432
+zheng_he_7,11,(drawn routing point),1.0,104.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,12,Malacca,2.196,102.2405,1432-08-03,out,known,"GeoNames cities1000 id 1734759 (Malacca, MY)",Ming treasure voyages#Seventh voyage,arrived 3 August 1432
+zheng_he_7,13,Semudera,5.1801,97.1507,1432-09-12,out,known,"GeoNames cities1000 id 1214658 (Lhokseumawe, ID)",Ming treasure voyages#Seventh voyage,arrived 12 September 1432
+zheng_he_7,14,(drawn routing point),6.0,90.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,15,"Beruwala, Ceylon",6.4788,79.9828,1432-11-28,out,known,"GeoNames cities1000 id 1249931 (Beruwala, LK)",Ming treasure voyages#Seventh voyage,arrived 28 November 1432
+zheng_he_7,16,Calicut,11.24802,75.7804,1432-12-10,out,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Ming treasure voyages#Seventh voyage,arrived 10 December 1432
+zheng_he_7,17,(drawn routing point),21.0,63.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,18,Hormuz,27.1865,56.2808,1433-01-17,out,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Ming treasure voyages#Seventh voyage,arrived 17 January 1433
+zheng_he_7,19,Hormuz (departure),27.1865,56.2808,1433-03-09,back,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Ming treasure voyages#Seventh voyage,left 9 March 1433
+zheng_he_7,20,(drawn routing point),21.0,63.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,21,Calicut,11.24802,75.7804,1433-03-31,back,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Ming treasure voyages#Seventh voyage,arrived 31 March 1433
+zheng_he_7,22,(drawn routing point),6.0,80.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,23,(drawn routing point),5.8,95.3,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,24,Semudera,5.1801,97.1507,1433-04-25,back,known,"GeoNames cities1000 id 1214658 (Lhokseumawe, ID)",Ming treasure voyages#Seventh voyage,arrived 25 April 1433
+zheng_he_7,25,Malacca,2.196,102.2405,1433-05-09,back,known,"GeoNames cities1000 id 1734759 (Malacca, MY)",Ming treasure voyages#Seventh voyage,arrived 9 May 1433
+zheng_he_7,26,(drawn routing point),1.2,104.4,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,27,(drawn routing point),8.0,108.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,28,Vijaya (Qui Nhon),13.77648,109.22367,1433-06-13,back,known,"GeoNames cities1000 id 1568574 (Qui Nhon, VN)",Ming treasure voyages#Seventh voyage,arrived 13 June 1433
+zheng_he_7,29,(drawn routing point),22.0,117.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,30,(drawn routing point),30.0,123.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+zheng_he_7,31,Taicang,31.44778,121.09389,1433-07-07,back,known,"GeoNames cities1000 id 1793703 (Taicang, CN)",Ming treasure voyages#Seventh voyage,arrived 7 July 1433
+zheng_he_7,32,Beijing,39.9075,116.39723,1433-07-22,back,known,"GeoNames cities1000 id 1816670 (Beijing, CN)",Ming treasure voyages#Seventh voyage,arrived 22 July 1433
+menzies_1421,0,"Malindi, the accepted limit",-3.21799,40.11692,1421,out,known,"GeoNames cities1000 id 187968 (Malindi, KE)","1421: The Year China Discovered the World#Publication, claims, and commercial success",East Africa is the limit accepted by historians
+menzies_1421,1,(drawn routing point),-15.0,45.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+menzies_1421,2,(drawn routing point),-30.0,32.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+menzies_1421,3,Cape of Good Hope (claimed),-34.35806,18.47556,1421,out,conjectural,Wikipedia coordinates of the linked article 'Cape of Good Hope',"1421: The Year China Discovered the World#Publication, claims, and commercial success",the claimed route round Africa
+menzies_1421,4,(drawn routing point),-15.0,-5.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+menzies_1421,5,(drawn routing point),5.0,-40.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+menzies_1421,6,Caribbean (claimed),13.10732,-59.62021,1422,out,conjectural,"GeoNames cities1000 id 3374036 (Bridgetown, BB)","1421: The Year China Discovered the World#Publication, claims, and commercial success",the claimed landfall in the Americas; drawn at Barbados
+nikitin,0,Tver,56.85836,35.90057,1468,out,known,"GeoNames cities1000 id 480060 (Tver, RU)",Afanasy Nikitin#Life,
+nikitin,1,Uglich,57.52322,38.32258,1468,out,known,"GeoNames cities1000 id 479532 (Uglich, RU)",Afanasy Nikitin#Life,
+nikitin,2,Kostroma,57.76638,40.92828,1468,out,known,"GeoNames cities1000 id 543878 (Kostroma, RU)",Afanasy Nikitin#Life,
+nikitin,3,Nizhny Novgorod,56.32867,44.00205,1468,out,known,"GeoNames cities1000 id 520555 (Nizhniy Novgorod, RU)",Afanasy Nikitin#Life,
+nikitin,4,(drawn routing point),51.5,46.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,5,Astrakhan (robbed),46.34968,48.04076,1468,out,known,"GeoNames cities1000 id 580497 (Astrakhan, RU)",Afanasy Nikitin#Life,attacked near Astrakhan
+nikitin,6,Derbent,42.06622,48.28759,1468,out,known,"GeoNames cities1000 id 566532 (Derbent, RU)",Afanasy Nikitin#Life,
+nikitin,7,Shemakha,40.63141,48.64137,1469,out,known,"GeoNames cities1000 id 585156 (Shamakhi, AZ)",Afanasy Nikitin#Life,
+nikitin,8,Baku,40.37767,49.89201,1469,out,known,"GeoNames cities1000 id 587084 (Baku, AZ)",Afanasy Nikitin#Life,
+nikitin,9,(drawn routing point),38.0,50.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,10,Sari,36.56332,53.06009,1469,out,known,"GeoNames cities1000 id 116996 (Sari, IR)",Afanasy Nikitin#Life,
+nikitin,11,Amol,36.46961,52.35072,1469,out,known,"GeoNames cities1000 id 143534 (Āmol, IR)",Afanasy Nikitin#Life,
+nikitin,12,Kashan,33.98237,51.42769,1470,out,known,"GeoNames cities1000 id 128476 (Kashan, IR)",Afanasy Nikitin#Life,
+nikitin,13,Yazd,31.89722,54.3675,1470,out,known,"GeoNames cities1000 id 111822 (Yazd, IR)",Afanasy Nikitin#Life,
+nikitin,14,Hormuz,27.1865,56.2808,1471,out,known,"GeoNames cities1000 id 141681 (Bandar Abbas, IR)",Afanasy Nikitin#Life,sailed for India in spring 1471
+nikitin,15,(drawn routing point),22.0,62.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,16,Chaul,18.55363,72.92559,1471,out,known,"GeoNames cities1000 id 1258190 (Revadanda, IN)",Afanasy Nikitin#Life,six weeks later; drawn at Revdanda by old Chaul
+nikitin,17,Bahmani Sultanate (Bidar),17.90802,77.51524,1472,out,conjectural,"GeoNames cities1000 id 1275738 (Bidar, IN)",Afanasy Nikitin#Life,"he lived among the Bahmani courts; Bidar, their capital, is not named in the article"
+nikitin,18,(drawn routing point),18.0,72.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,19,(drawn routing point),21.0,62.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,20,Muscat,23.58413,58.40778,1473,back,known,"GeoNames cities1000 id 287286 (Muscat, OM)",Afanasy Nikitin#Life,
+nikitin,21,(drawn routing point),26.5,56.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,22,(drawn routing point),32.0,51.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,23,(drawn routing point),38.1,46.3,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,24,Trebizond,41.005,39.72694,1474-11,back,known,"GeoNames cities1000 id 738648 (Trabzon, TR)",Afanasy Nikitin#Life,
+nikitin,25,Caffa (Feodosia),45.03199,35.38153,1474-11,back,known,"GeoNames cities1000 id 709161 (Feodosiya, UA)",Afanasy Nikitin#Life,sailed here in November 1474
+nikitin,26,(drawn routing point),50.0,34.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+nikitin,27,Died near Smolensk,54.77826,32.05088,1475-04,back,known,"GeoNames cities1000 id 491687 (Smolensk, RU)",Afanasy Nikitin#Life,spring 1475
+columbus,0,Palos,37.23457,-6.89471,1492-08-03,out,known,"GeoNames cities1000 id 2512950 (Palos de la Frontera, ES)",Voyages of Christopher Columbus#First voyage (1492–1493),left 3 August 1492
+columbus,1,Gran Canaria,28.10178,-15.41573,1492-08-09,out,known,"GeoNames cities1000 id 2515270 (Las Palmas de Gran Canaria, ES)",Voyages of Christopher Columbus#First voyage (1492–1493),
+columbus,2,La Gomera,28.09163,-17.11331,1492-09-06,out,known,"GeoNames cities1000 id 2511230 (San Sebastián de la Gomera, ES)",Voyages of Christopher Columbus#First voyage (1492–1493),left 6 September
+columbus,3,(drawn routing point),26.5,-45.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+columbus,4,Guanahani (San Salvador),24.05,-74.48,1492-10-12,out,approximate,position stated or implied in the article text (see note),Voyages of Christopher Columbus#First landing in the Americas,landed 12 October; modern San Salvador Island is the likeliest candidate
+columbus,5,(drawn routing point),22.5,-75.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+columbus,6,Cuba,21.10982,-76.13031,1492-10-28,out,approximate,"GeoNames cities1000 id 3558315 (Gibara, CU)",Voyages of Christopher Columbus#Exploration through the Antilles,drawn at Gibara
+columbus,7,"La Navidad, Hispaniola",19.75938,-72.19815,1492-12-25,out,approximate,"GeoNames cities1000 id 3728474 (Cap-Haïtien, HT)",Voyages of Christopher Columbus#Exploration through the Antilles,Santa Maria wrecked; fort left behind; drawn at Cap-Haitien
+columbus,8,Hispaniola (departure),19.75938,-72.19815,1493-01-16,back,known,"GeoNames cities1000 id 3728474 (Cap-Haïtien, HT)",Voyages of Christopher Columbus#First return,homeward 16 January 1493
+columbus,9,(drawn routing point),33.0,-60.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+columbus,10,(drawn routing point),37.0,-35.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+columbus,11,"Santa Maria, Azores",36.97472,-25.09472,1493-02-17,back,known,Wikipedia coordinates of the linked article 'Santa Maria Island',Voyages of Christopher Columbus#First return,
+columbus,12,Lisbon,38.72509,-9.1498,1493-03-04,back,known,"GeoNames cities1000 id 2267057 (Lisbon, PT)",Voyages of Christopher Columbus#First return,storm drove him into Lisbon
+columbus,13,Palos,37.23457,-6.89471,1493-03-15,back,known,"GeoNames cities1000 id 2512950 (Palos de la Frontera, ES)",Voyages of Christopher Columbus#First return,back on 15 March 1493
+da_gama,0,Lisbon,38.72509,-9.1498,1497-07-08,out,known,"GeoNames cities1000 id 2267057 (Lisbon, PT)",Vasco da Gama#First voyage,8 July 1497
+da_gama,1,Cape Verde Islands,14.93152,-23.51254,1497-07,out,known,"GeoNames cities1000 id 3374333 (Praia, CV)",Vasco da Gama#First voyage,via Tenerife and Cape Verde
+da_gama,2,(drawn routing point),0.0,-25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,3,(drawn routing point),-20.0,-25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,4,(drawn routing point),-32.0,10.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,5,Cape of Good Hope,-34.35806,18.47556,1497-11,out,known,Wikipedia coordinates of the linked article 'Cape of Good Hope',Vasco da Gama#First voyage,
+da_gama,6,Mossel Bay,-34.18307,22.14605,1497-12,out,known,"GeoNames cities1000 id 973709 (Mossel Bay, ZA)",Vasco da Gama#First voyage,storage ship scuttled
+da_gama,7,(drawn routing point),-34.5,25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,8,(drawn routing point),-30.0,31.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,9,(drawn routing point),-25.0,36.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,10,Mozambique,-15.03466,40.73447,1498-03,out,known,"GeoNames cities1000 id 1037390 (Mozambique, MZ)",Vasco da Gama#First voyage,
+da_gama,11,Mombasa,-4.05466,39.66359,1498-04-07,out,known,"GeoNames cities1000 id 186301 (Mombasa, KE)",Vasco da Gama#First voyage,7 to 13 April 1498
+da_gama,12,Malindi,-3.21799,40.11692,1498-04-14,out,known,"GeoNames cities1000 id 187968 (Malindi, KE)",Vasco da Gama#First voyage,pilot hired; left 24 April
+da_gama,13,(drawn routing point),5.0,60.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,14,Calicut (Kappad),11.24802,75.7804,1498-05-20,out,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Vasco da Gama#First voyage,arrived 20 May 1498
+da_gama,15,Calicut (departure),11.24802,75.7804,1498-08-29,back,known,"GeoNames cities1000 id 1265873 (Kozhikode, IN)",Vasco da Gama#First voyage,left 29 August 1498
+da_gama,16,Anjediva,14.81361,74.12972,1498-10-03,back,known,"GeoNames cities1000 id 1267635 (Karwar, IN)",Vasco da Gama#First voyage,struck out across the ocean on 3 October; drawn at Karwar
+da_gama,17,(drawn routing point),8.0,58.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,18,Mogadishu (sighted),2.03711,45.34375,1499-01-02,back,known,"GeoNames cities1000 id 53654 (Mogadishu, SO)",Vasco da Gama#First voyage,land seen again 2 January 1499
+da_gama,19,Malindi,-3.21799,40.11692,1499-01-07,back,known,"GeoNames cities1000 id 187968 (Malindi, KE)",Vasco da Gama#First voyage,half the crew dead of scurvy
+da_gama,20,(drawn routing point),-12.0,42.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,21,(drawn routing point),-25.0,36.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,22,(drawn routing point),-30.0,31.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,23,Mossel Bay,-34.18307,22.14605,1499-03,back,known,"GeoNames cities1000 id 973709 (Mossel Bay, ZA)",Vasco da Gama#First voyage,
+da_gama,24,Cape of Good Hope,-34.35806,18.47556,1499-03-20,back,known,Wikipedia coordinates of the linked article 'Cape of Good Hope',Vasco da Gama#First voyage,rounded 20 March 1499
+da_gama,25,(drawn routing point),-20.0,5.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,26,(drawn routing point),5.0,-10.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,27,Cape Verde (Santiago),14.93152,-23.51254,1499-06,back,known,"GeoNames cities1000 id 3374333 (Praia, CV)",Vasco da Gama#First voyage,
+da_gama,28,(drawn routing point),30.0,-20.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+da_gama,29,Lisbon (Berrio),38.72509,-9.1498,1499-07-10,back,known,"GeoNames cities1000 id 2267057 (Lisbon, PT)",Vasco da Gama#First voyage,Berrio arrived 10 July 1499
+magellan,0,Sanlucar de Barrameda,36.77808,-6.3515,1519-09-20,out,known,"GeoNames cities1000 id 2511306 (Sanlúcar de Barrameda, ES)",Magellan expedition#Crossing the Atlantic,left Spain 20 September 1519
+magellan,1,Tenerife,28.46824,-16.25462,1519-09-26,out,known,"GeoNames cities1000 id 2511174 (Santa Cruz de Tenerife, ES)",Magellan expedition#Crossing the Atlantic,
+magellan,2,(drawn routing point),5.0,-25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,3,(drawn routing point),-8.0,-33.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,4,Rio de Janeiro,-22.90642,-43.18223,1519-12-13,out,known,"GeoNames cities1000 id 3451190 (Rio de Janeiro, BR)",Magellan expedition#Crossing the Atlantic,13 December 1519
+magellan,5,Rio de la Plata,-34.90328,-56.18816,1520-01-11,out,known,"GeoNames cities1000 id 3441575 (Montevideo, UY)",Magellan expedition#Río de la Plata,
+magellan,6,(drawn routing point),-42.0,-62.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,7,Port St Julian (winter),-49.30696,-67.7298,1520-03-31,out,known,"GeoNames cities1000 id 3840082 (Puerto San Julián, AR)",Magellan expedition#Search for strait,five months; Easter mutiny
+magellan,8,(drawn routing point),-51.0,-68.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,9,Strait of Magellan,-53.16282,-70.90922,1520-11-01,out,known,"GeoNames cities1000 id 3874787 (Punta Arenas, CL)",Magellan expedition#Strait of Magellan,entered 1 November 1520
+magellan,10,(drawn routing point),-53.0,-74.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,11,(drawn routing point),-35.0,-80.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,12,(drawn routing point),-15.0,-110.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,13,(drawn routing point),0.0,-150.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,14,(drawn routing point),12.0,170.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,15,Guam,13.47567,144.74886,1521-03-06,out,known,"GeoNames cities1000 id 4044012 (Hagåtña, GU)",Magellan expedition#Guam and the Philippines,after 98 days on the Pacific
+magellan,16,Homonhon,11.03088,125.72342,1521-03-16,out,known,"GeoNames cities1000 id 1712206 (Guiuan, PH)",Magellan expedition#The Philippines,drawn at Guiuan
+magellan,17,Cebu and Mactan,10.31672,123.89071,1521-04-27,out,known,"GeoNames cities1000 id 1717512 (Cebu City, PH)",Magellan expedition#Battle of Mactan,Magellan killed
+magellan,18,(drawn routing point),7.0,123.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,19,"Tidore, Moluccas",0.79065,127.38424,1521-11-08,out,known,"GeoNames cities1000 id 1624041 (Ternate, ID)",Magellan expedition#Moluccas,reached 8 November 1521; drawn at neighbouring Ternate
+magellan,20,Tidore (Victoria sails),0.79065,127.38424,1521-12-21,back,known,"GeoNames cities1000 id 1624041 (Ternate, ID)",Magellan expedition#Return to Spain,Victoria set sail 21 December 1521
+magellan,21,(drawn routing point),-8.5,125.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,22,(drawn routing point),-15.0,100.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,23,(drawn routing point),-30.0,50.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,24,Cape of Good Hope,-34.35806,18.47556,1522-05-06,back,known,Wikipedia coordinates of the linked article 'Cape of Good Hope',Magellan expedition#Return to Spain,rounded by 6 May 1522
+magellan,25,(drawn routing point),-15.0,0.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,26,Cape Verde,14.93152,-23.51254,1522-07-09,back,known,"GeoNames cities1000 id 3374333 (Praia, CV)",Magellan expedition#Return to Spain,13 men detained by the Portuguese
+magellan,27,(drawn routing point),30.0,-18.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+magellan,28,Sanlucar de Barrameda,36.77808,-6.3515,1522-09-06,back,known,"GeoNames cities1000 id 2511306 (Sanlúcar de Barrameda, ES)",Magellan expedition#Return to Spain,Victoria arrived 6 September 1522
+cook1,0,Plymouth,50.37139,-4.14222,1768-08-26,out,known,Wikipedia coordinates of the linked article 'Plymouth',First voyage of James Cook#Voyage from Plymouth to Tahiti,26 August 1768
+cook1,1,(drawn routing point),32.6,-17.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,2,(drawn routing point),0.0,-30.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,3,Rio de Janeiro,-22.90642,-43.18223,1768-11-15,out,known,"GeoNames cities1000 id 3451190 (Rio de Janeiro, BR)",First voyage of James Cook#Voyage from Plymouth to Tahiti,15 November to 2 December
+cook1,4,(drawn routing point),-42.0,-58.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,5,"Bay of Good Success, Tierra del Fuego",-54.8,-65.25,1769-01,out,approximate,position stated or implied in the article text (see note),First voyage of James Cook#Voyage from Plymouth to Tahiti,watering place in January 1769
+cook1,6,(drawn routing point),-57.0,-67.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,7,(drawn routing point),-40.0,-110.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,8,"Matavai Bay, Tahiti",-17.5347,-149.56843,1769-04-13,out,known,"GeoNames cities1000 id 4033936 (Papeete, PF)",First voyage of James Cook#Voyage from Plymouth to Tahiti,13 April 1769; transit observed 3 June
+cook1,9,Huahine,-16.7123,-151.03493,1769-07-16,out,known,"GeoNames cities1000 id 4034496 (Fare, PF)",First voyage of James Cook#Society Islands and southern continent,
+cook1,10,(drawn routing point),-35.0,-160.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,11,"Poverty Bay, New Zealand",-38.65333,178.00417,1769-10-07,out,known,"GeoNames cities1000 id 2206854 (Gisborne, NZ)",First voyage of James Cook#New Zealand,7 October 1769
+cook1,12,(drawn routing point),-34.4,173.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,13,(drawn routing point),-40.5,172.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,14,(drawn routing point),-46.8,168.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,15,(drawn routing point),-40.0,174.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,16,Point Hicks,-37.8,149.27,1770-04-19,out,approximate,position stated or implied in the article text (see note),First voyage of James Cook#Australian coast,first sight of the east coast of Australia
+cook1,17,Botany Bay,-34.01088,151.20512,1770-04-29,out,known,"GeoNames cities1000 id 2160937 (Kurnell, AU)",First voyage of James Cook#Botany Bay and initial contacts with Aboriginal people,
+cook1,18,(drawn routing point),-24.0,153.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,19,Endeavour River (Cooktown),-15.4657,145.24984,1770-06,out,known,"GeoNames cities1000 id 2170658 (Cooktown, AU)",First voyage of James Cook#Endeavour River,repairs after the reef
+cook1,20,Possession Island,-10.89197,142.38934,1770-08,out,known,"GeoNames cities1000 id 2177023 (Bamaga, AU)",First voyage of James Cook#Possession Island,drawn at Bamaga nearby
+cook1,21,(drawn routing point),-10.0,135.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,22,Savu,-10.4933,121.8393,1770-09,back,known,"GeoNames cities1000 id 2056953 (Seba, ID)",First voyage of James Cook#Homeward voyage,
+cook1,23,Batavia,-6.21462,106.84513,1770-10,back,known,"GeoNames cities1000 id 1642911 (Jakarta, ID)",First voyage of James Cook#Homeward voyage,malaria and dysentery
+cook1,24,(drawn routing point),-7.0,104.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,25,(drawn routing point),-20.0,70.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,26,Cape of Good Hope,-34.35806,18.47556,1771-03,back,known,Wikipedia coordinates of the linked article 'Cape of Good Hope',First voyage of James Cook#Homeward voyage,
+cook1,27,Saint Helena,-15.92488,-5.71816,1771-05,back,known,"GeoNames cities1000 id 3370903 (Jamestown, SH)",First voyage of James Cook#Homeward voyage,
+cook1,28,(drawn routing point),10.0,-22.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,29,(drawn routing point),40.0,-18.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+cook1,30,The Downs (Deal),51.22316,1.4028,1771-07-12,back,known,"GeoNames cities1000 id 2651468 (Deal, GB)",First voyage of James Cook#Homeward voyage,anchored 12 July 1771
+laperouse,0,Brest,48.39029,-4.48628,1785-08-01,out,known,"GeoNames cities1000 id 3030300 (Brest, FR)",Lapérouse expedition#Chile and Hawaii,left 1 August 1785 with 220 men
+laperouse,1,(drawn routing point),30.0,-20.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,2,(drawn routing point),-10.0,-32.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,3,(drawn routing point),-42.0,-58.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,4,(drawn routing point),-57.0,-67.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,5,(drawn routing point),-48.0,-78.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,6,"Concepcion, Chile",-36.82819,-73.05137,1786-02,out,known,"Wikipedia coordinates of the linked article 'Concepción, Chile'",Lapérouse expedition#Chile and Hawaii,
+laperouse,7,Easter Island,-27.12,-109.35,1786-04-09,out,known,Wikipedia coordinates of the linked article 'Easter Island',Lapérouse expedition#Chile and Hawaii,9 April 1786
+laperouse,8,Maui,20.87526,-156.67982,1786-05,out,known,"GeoNames cities1000 id 5849996 (Lahaina, US)",Lapérouse expedition#Chile and Hawaii,first Europeans ashore on Maui
+laperouse,9,"Lituya Bay, Alaska",58.63,-137.62,1786-07,out,known,position stated or implied in the article text (see note),Lapérouse expedition#Alaska,Port des Francais; 21 men drowned
+laperouse,10,Monterey,36.60024,-121.89468,1786-09-14,out,known,"GeoNames cities1000 id 5374361 (Monterey, US)",Lapérouse expedition#California,14 September 1786
+laperouse,11,(drawn routing point),20.0,-160.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,12,(drawn routing point),20.0,150.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,13,Macau,22.20056,113.54611,1787-01,out,known,"GeoNames cities1000 id 1821274 (Macau, MO)",Lapérouse expedition#East Asia,after 100 days across the Pacific
+laperouse,14,Manila,14.6042,120.9822,1787-04-09,out,known,"GeoNames cities1000 id 1701668 (Manila, PH)",Lapérouse expedition#East Asia,left 9 April 1787
+laperouse,15,(drawn routing point),25.0,123.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,16,Quelpart (Jeju),33.50972,126.52194,1787-05,out,known,"GeoNames cities1000 id 1846266 (Jeju City, KR)",Lapérouse expedition#East Asia,
+laperouse,17,(drawn routing point),40.0,133.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,18,(drawn routing point),46.0,141.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,19,(drawn routing point),50.0,156.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,20,"Petropavlovsk, Kamchatka",53.06393,158.62751,1787-09-07,out,known,"GeoNames cities1000 id 2122104 (Petropavlovsk-Kamchatsky, RU)",Lapérouse expedition#Japan and Russia,7 September 1787; Lesseps leaves overland
+laperouse,21,(drawn routing point),20.0,175.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,22,Samoa (Tutuila),-14.27806,-170.7025,1787-12,out,known,"GeoNames cities1000 id 5881576 (Pago Pago, AS)",Lapérouse expedition#South Pacific,
+laperouse,23,Tonga,-21.13683,-175.20114,1787-12,out,known,"GeoNames cities1000 id 4032402 (Nuku‘alofa, TO)",Lapérouse expedition#South Pacific,
+laperouse,24,(drawn routing point),-28.0,165.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,25,Botany Bay,-34.01088,151.20512,1788-01,out,known,"GeoNames cities1000 id 2160937 (Kurnell, AU)",Lapérouse expedition#Australia,met the British First Fleet
+laperouse,26,Botany Bay (departure),-34.01088,151.20512,1788-03-10,back,known,"GeoNames cities1000 id 2160937 (Kurnell, AU)",Lapérouse expedition#Epilogue,"last seen leaving, 10 March 1788"
+laperouse,27,(drawn routing point),-20.0,160.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+laperouse,28,Wrecked at Vanikoro,-11.65,166.92,1788,back,known,position stated or implied in the article text (see note),Lapérouse expedition#Discovery of the expedition,wrecks found on the reefs of Vanikoro
+franklin,0,"Greenhithe, Kent",51.45026,0.28539,1845-05-19,out,known,"GeoNames cities1000 id 2647962 (Greenhithe, GB)",Franklin's lost expedition,sailed 19 May 1845
+franklin,1,"Stromness, Orkney",58.96,-3.3,1845-05,out,known,Wikipedia coordinates of the linked article 'Stromness',Franklin's lost expedition,
+franklin,2,(drawn routing point),59.0,-35.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+franklin,3,(drawn routing point),61.0,-50.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+franklin,4,Disko Bay (Whalefish Islands),69.0,-52.0,1845-07,out,known,Wikipedia coordinates of the linked article 'Disko Bay',Franklin's lost expedition,
+franklin,5,Baffin Bay (last seen),74.0,-68.0,1845-07,out,known,Wikipedia coordinates of the linked article 'Baffin Bay',Franklin's lost expedition,last sighted by whalers in late July 1845
+franklin,6,(drawn routing point),74.2,-80.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+franklin,7,Beechey Island (winter 1845 to 1846),74.72,-91.85,1846,out,known,position stated or implied in the article text (see note),Franklin's lost expedition,three graves
+franklin,8,(drawn routing point),72.5,-96.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+franklin,9,Beset off King William Island,70.08,-98.25,1846-09,out,known,position stated or implied in the article text (see note),Franklin's lost expedition,trapped September 1846
+franklin,10,Victory Point (ships abandoned),69.62,-98.43,1848-04-26,back,known,position stated or implied in the article text (see note),Franklin's lost expedition,note of 25 April 1848
+franklin,11,(drawn routing point),68.9,-97.8,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+franklin,12,Southward towards the mainland (all died),68.0,-96.5,1848,back,approximate,position stated or implied in the article text (see note),Franklin's lost expedition,the last survivors died short of the mainland coast
+burke_wills,0,"Royal Park, Melbourne",-37.814,144.96332,1860-08-20,out,known,"GeoNames cities1000 id 2158177 (Melbourne, AU)",Burke and Wills expedition#Departure from Melbourne,20 August 1860
+burke_wills,1,Swan Hill,-35.33781,143.5544,1860-09-06,out,known,"GeoNames cities1000 id 2147756 (Swan Hill, AU)",Burke and Wills expedition#Departure from Melbourne,6 September
+burke_wills,2,Menindee,-32.3925,142.41806,1860-10-12,out,known,"Wikipedia coordinates of the linked article 'Menindee, New South Wales'",Burke and Wills expedition#Departure from Melbourne,12 October; 750 km in two months
+burke_wills,3,Cooper Creek depot,-27.62,141.08,1860-11-11,out,approximate,position stated or implied in the article text (see note),Burke and Wills expedition#Menindee to Cooper Creek,the dig tree
+burke_wills,4,(drawn routing point),-24.0,140.6,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+burke_wills,5,"Flinders River, near the Gulf of Carpentaria",-17.67183,141.07721,1861-02-02,out,approximate,"GeoNames cities1000 id 2155085 (Normanton, AU)",Burke and Wills expedition#Cooper Creek,"Camp 119 on the Bynoe River, an arm of the Flinders delta, about 2 February 1861; drawn at Normanton"
+burke_wills,6,(drawn routing point),-24.0,140.6,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+burke_wills,7,Cooper Creek (depot just abandoned),-27.62,141.08,1861-04-21,back,known,position stated or implied in the article text (see note),Burke and Wills expedition,arrived hours after the depot party left
+burke_wills,8,Burke and Wills die near Innamincka,-27.73,140.75,1861-06-30,back,approximate,position stated or implied in the article text (see note),Burke and Wills expedition,died on or about 30 June 1861
+amundsen,0,"Framheim, Bay of Whales",-78.5,-164.0,1911-10-19,out,known,Wikipedia coordinates of the linked article 'Framheim',Amundsen's South Pole expedition,set out 19 October 1911
+amundsen,1,(drawn routing point),-82.0,-163.5,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+amundsen,2,Axel Heiberg Glacier,-85.41667,-163.0,1911-11-21,out,known,Wikipedia coordinates of the linked article 'Axel Heiberg Glacier',Amundsen's South Pole expedition,route on to the polar plateau
+amundsen,3,South Pole,-90.0,0.0,1911-12-14,out,known,Wikipedia coordinates of the linked article 'South Pole',Amundsen's South Pole expedition,14 December 1911
+amundsen,4,South Pole (departure),-90.0,0.0,1911-12-18,back,known,Wikipedia coordinates of the linked article 'South Pole',Amundsen's South Pole expedition#Return to Framheim,began the journey back on 18 December
+amundsen,5,"Butchers' Shop, head of the Axel Heiberg Glacier",-85.41667,-163.0,1912-01-04,back,known,Wikipedia coordinates of the linked article 'Axel Heiberg Glacier',Amundsen's South Pole expedition#Return to Framheim,reached 4 January 1912
+amundsen,6,(drawn routing point),-82.0,-163.5,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+amundsen,7,Framheim,-78.5,-164.0,1912-01-25,back,known,Wikipedia coordinates of the linked article 'Framheim',Amundsen's South Pole expedition,"25 January 1912, 4 am"
+scott,0,Cape Evans,-77.63333,166.4,1911-11-01,out,known,Wikipedia coordinates of the linked article 'Cape Evans',Terra Nova Expedition#The Barrier: southward,main party left 1 November 1911
+scott,1,(drawn routing point),-79.5,169.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scott,2,"The Gateway, foot of the Beardmore Glacier",-83.55,171.0,1911-12-04,out,approximate,position stated or implied in the article text (see note),Terra Nova Expedition#The Barrier: southward,reached 4 December
+scott,3,Beardmore Glacier,-83.75,171.0,1911-12-20,out,known,Wikipedia coordinates of the linked article 'Beardmore Glacier',Terra Nova Expedition#Beardmore ascent,
+scott,4,South Pole,-90.0,0.0,1912-01-17,out,known,Wikipedia coordinates of the linked article 'South Pole',Terra Nova Expedition#South Pole,"17 January 1912, 34 days after Amundsen"
+scott,5,South Pole (turn for home),-90.0,0.0,1912-01-18,back,known,Wikipedia coordinates of the linked article 'South Pole',Terra Nova Expedition#The last march,
+scott,6,Beardmore Glacier (Evans dies at the foot),-83.55,171.0,1912-02-17,back,known,position stated or implied in the article text (see note),Terra Nova Expedition#The last march,Evans died 17 February
+scott,7,(drawn routing point),-81.0,170.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+scott,8,"Last camp, 11 miles south of One Ton Depot",-79.65,169.4,1912-03-29,back,approximate,position stated or implied in the article text (see note),Terra Nova Expedition#Eleven miles,One Ton Depot was at 79 degrees 29 minutes south; longitude drawn on the route
+endurance,0,Plymouth,50.37139,-4.14222,1914-08-08,out,known,Wikipedia coordinates of the linked article 'Plymouth',Imperial Trans-Antarctic Expedition,8 August 1914
+endurance,1,(drawn routing point),30.0,-20.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,2,(drawn routing point),0.0,-30.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,3,Buenos Aires,-34.60389,-58.38139,1914-10-26,out,known,Wikipedia coordinates of the linked article 'Buenos Aires',Imperial Trans-Antarctic Expedition,sailed 26 October
+endurance,4,"Grytviken, South Georgia",-54.28139,-36.50806,1914-12-05,out,known,Wikipedia coordinates of the linked article 'Grytviken',Imperial Trans-Antarctic Expedition,left 5 December 1914
+endurance,5,(drawn routing point),-65.0,-25.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,6,Beset in the Weddell Sea,-76.57,-31.5,1915-01-19,out,known,position stated or implied in the article text (see note),Imperial Trans-Antarctic Expedition,"76 degrees 34 S, 31 degrees 30 W"
+endurance,7,(drawn routing point),-74.0,-42.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,8,Ship abandoned,-69.08,-51.5,1915-10-27,out,known,position stated or implied in the article text (see note),Imperial Trans-Antarctic Expedition,"27 October 1915, 69 degrees 05 S, 51 degrees 30 W"
+endurance,9,Ocean Camp and Patience Camp (drifting),-64.5,-53.0,1916-03-17,back,approximate,position stated or implied in the article text (see note),Imperial Trans-Antarctic Expedition,drifted north; level with Paulet Island by 17 March
+endurance,10,Elephant Island,-61.14,-55.12,1916-04-15,back,known,Wikipedia coordinates of the linked article 'Elephant Island',Imperial Trans-Antarctic Expedition,landed 15 April 1916 after the boats left on 9 April
+endurance,11,(drawn routing point),-58.0,-45.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,12,"King Haakon Bay, South Georgia",-54.15,-37.31667,1916-05-10,back,known,Wikipedia coordinates of the linked article 'King Haakon Bay',Imperial Trans-Antarctic Expedition,James Caird lands 10 May
+endurance,13,Stromness whaling station,-54.16,-36.7116,1916-05-20,back,known,"Wikipedia coordinates of the linked article 'Stromness, South Georgia'",Imperial Trans-Antarctic Expedition,"crossing of South Georgia, 20 May"
+endurance,14,(drawn routing point),-57.0,-50.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,15,Elephant Island rescue,-61.14,-55.12,1916-08-30,back,known,Wikipedia coordinates of the linked article 'Elephant Island',Imperial Trans-Antarctic Expedition,"Yelcho, 30 August 1916"
+endurance,16,(drawn routing point),-56.5,-64.0,,back,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+endurance,17,Punta Arenas,-53.1625,-70.90806,1916-09-03,back,approximate,Wikipedia coordinates of the linked article 'Punta Arenas',Imperial Trans-Antarctic Expedition,triumphal welcome
+kon_tiki,0,"Callao, Peru",-12.05222,-77.13917,1947-04-28,out,known,Wikipedia coordinates of the linked article 'Callao',Kon-Tiki expedition#The Voyage,28 April 1947
+kon_tiki,1,(drawn routing point),-10.0,-95.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kon_tiki,2,(drawn routing point),-8.5,-120.0,,out,drawn,drawn by the author to keep the line on a plausible path; not a stop,,
+kon_tiki,3,"Raroia reef, Tuamotus",-16.01667,-142.43333,1947-08-07,out,known,Wikipedia coordinates of the linked article 'Raroia',Kon-Tiki expedition#The Voyage,"7 August 1947, after 101 days"
