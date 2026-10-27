@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>There and Back Again</title>
+<meta name="description" content="{{n_journeys}} great journeys from about 600 BC to 1947, mapped there and back, and graded by the evidence that they happened: proven, probable, disputed or legend.">
+<meta property="og:title" content="There and Back Again: 2,500 years of great journeys, and how sure we are that they happened">
+<meta property="og:description" content="{{n_journeys}} journeys mapped out and back, from the Phoenicians to the Antarctic, each graded by its evidence. Who came home, and how do we know?">
+<meta property="og:image" content="https://tristan-hotham.github.io/there-and-back-again/header.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;0,9..144,900;1,9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Antique chart paper. Four inks for four grades of evidence: blue = proven, green = probable, ochre = disputed, plum = legend. Red-brown = the house accent. */
+:root{
+  --bg:#F3ECDC; --panel:#EADFC8; --fg:#231C14; --muted:#6E6352; --rule:#D9CCB0; --card:#FBF6EA; --border:#C8B894;
+  --hot:#9A3B1E; --sea:#E6E3D2; --land:#E9DCBC; --coast:#8C7A58; --grat:#D6CDB4;
+  --g0:#2A5DA8; --g1:#00896A; --g2:#BC6C00; --g3:#B3407F;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1B1814; --panel:#24201A; --fg:#EFE6D4; --muted:#A99D87; --rule:#3A342A; --card:#221E18; --border:#4A4235;
+  --hot:#E0855A; --sea:#161D22; --land:#2C271F; --coast:#6E6350; --grat:#25292A;
+  --g0:#5F8AD6; --g1:#1C9E78; --g2:#CF7A16; --g3:#CB64A0; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1814; --panel:#24201A; --fg:#EFE6D4; --muted:#A99D87; --rule:#3A342A; --card:#221E18; --border:#4A4235;
+  --hot:#E0855A; --sea:#161D22; --land:#2C271F; --coast:#6E6350; --grat:#25292A;
+  --g0:#5F8AD6; --g1:#1C9E78; --g2:#CF7A16; --g3:#CB64A0; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1120px,calc(100vw - 32px));margin-left:calc((100% - min(1120px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(52px,13vw,112px)/.86 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1 em{font-style:italic;font-weight:600;color:var(--hot)}
+.mark{width:clamp(92px,21vw,170px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:44ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(28px,6vw,40px)/1 var(--display);color:var(--fg)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:280px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.chip{display:inline-flex;align-items:center;gap:7px}
+.chip i{display:inline-block;width:16px;height:4px;border-radius:2px}
+.btn[aria-pressed="false"].chip{opacity:.55;text-decoration:line-through}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:3px;overflow:hidden;flex-wrap:wrap}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+select{font:400 13px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px;min-height:36px;max-width:100%}
+.ctl-label{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:860px){.mapgrid{grid-template-columns:1fr}}
+#mapbox{position:relative;border:1px solid var(--border);background:var(--sea);border-radius:2px;overflow:hidden;touch-action:none}
+#map{display:block;width:100%;height:auto;cursor:grab}
+#map:active{cursor:grabbing}
+.zoombtns{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px}
+.zoombtns .btn{min-height:30px;width:32px;padding:0;font-size:16px}
+.legend{display:flex;gap:6px 16px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend svg{vertical-align:-3px;margin-right:5px}
+.side{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--border);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.empty{color:var(--muted)}
+.card .t{font:600 21px/1.15 var(--display);display:block;margin:2px 0 6px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:8px 0}
+.card dt{color:var(--muted)}.card dd{margin:0}
+.card .why{font:400 15px/1.5 var(--body);margin:8px 0}
+.pill{display:inline-block;font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:#fff;padding:5px 7px;border-radius:2px}
+.card details{margin-top:8px}
+.card summary{cursor:pointer;color:var(--hot)}
+.card ol{margin:6px 0 0;padding-left:20px;max-height:240px;overflow:auto}
+.card ol li{margin-bottom:3px}
+.card .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+#timeline{margin-top:10px}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right;white-space:nowrap}
+table.t tr.clk{cursor:pointer}table.t tr.clk:hover{background:var(--panel)}
+.tablewrap{overflow-x:auto}
+.mirrors{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px;margin:18px 0}
+.mirrors div{background:var(--card);border:1px solid var(--border);padding:12px 14px;font-size:16px;line-height:1.45}
+.mirrors b{display:block;font:600 16px/1.25 var(--display);margin-bottom:6px}
+.mirrors button{margin-top:8px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1001}
+.route{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dim .route{opacity:.16}
+.dim .route.on{opacity:1}
+.dim .jr:not(.sel) > :not(.route){opacity:.2}
+.hide{display:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History × geography</span><span>The world, 600 BC to 1947</span></div>
+<header class="hero">
+  <h1>There and <em>back again</em></h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">{{n_journeys}} great journeys over 2,500 years, mapped out and back, and graded by one plain question: how sure are we that they happened?</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Routes and evidence from English Wikipedia, places from Wikipedia and GeoNames</div>
+
+<div class="stats">
+  <div><b>{{n_journeys}}</b><span>journeys, from the Phoenicians to Kon-Tiki</span></div>
+  <div><b style="color:var(--g0)">{{grade_counts.Proven}}</b><span>proven by archaeology or several records</span></div>
+  <div><b style="color:var(--g3)">{{grade_counts.Legend}}</b><span>legends, myths or oral tradition</span></div>
+  <div><b>{{return_counts.never}}</b><span>parties that never came home</span></div>
+</div>
+
+<p class="lede">Some journeys are as certain as anything in the past. Magellan's last ship sailed into Sanlucar with 18 men; Amundsen left a tent at the South Pole with a letter in it, and Scott found it. Others rest on a single line in a single chronicle, a saga written down two centuries later, or a story a king told an official in Cairo. Maps of "great journeys" usually draw them all in the same confident ink.</p>
+<p>I drew {{n_journeys}} of them, from about 600 BC to 1947: famous voyages, envoys and pilgrims, Viking crossings, lost expeditions and a handful of beautiful legends. Each route is a chain of {{n_stops}} named stops taken from the Wikipedia article about the journey, with every stop's coordinates and source recorded. Then I graded each journey by its evidence, in four inks: <b style="color:var(--g0)">Proven</b> (archaeology or several independent records), <b style="color:var(--g1)">Probable</b> (one good written source), <b style="color:var(--g2)">Disputed</b> (serious scholarly argument) and <b style="color:var(--g3)">Legend</b> (myth, legend or oral tradition). Outward legs are solid, return legs dashed, and a cross marks where a party never came back.</p>
+
+<h2><span class="n">01 · The map</span>Every journey, there and back</h2>
+<p>Tap a line or pick a journey to read its story card: who went, when, where they turned, whether they came home, how far, and why it gets its grade. Play the timeline to watch the routes appear in order.</p>
+<div class="bleed">
+  <div class="controls" role="group" aria-label="Evidence grade">
+    <span class="ctl-label">Evidence</span>
+    <button class="btn chip" data-grade="Proven" aria-pressed="true"><i style="background:var(--g0)"></i>Proven</button>
+    <button class="btn chip" data-grade="Probable" aria-pressed="true"><i style="background:var(--g1)"></i>Probable</button>
+    <button class="btn chip" data-grade="Disputed" aria-pressed="true"><i style="background:var(--g2)"></i>Disputed</button>
+    <button class="btn chip" data-grade="Legend" aria-pressed="true"><i style="background:var(--g3)"></i>Legend</button>
+  </div>
+  <div class="controls">
+    <span class="ctl-label">Era</span>
+    <select id="fEra" aria-label="Era"><option value="">All eras</option><option>Antiquity</option><option>Middle Ages</option><option>Age of sail</option><option>Modern</option></select>
+    <span class="ctl-label">Came back?</span>
+    <select id="fRet" aria-label="Did they come back"><option value="">Any outcome</option><option value="returned">Returned</option><option value="some">Some returned</option><option value="never">Never returned</option><option value="unknown">Unknown</option></select>
+    <span class="ctl-label">Region</span>
+    <select id="fReg" aria-label="Region"><option value="">Whole world</option></select>
+  </div>
+  <div class="controls">
+    <select id="pick" aria-label="Choose a journey" style="flex:1 1 260px"><option value="">Choose a journey…</option></select>
+    <button class="btn" id="play" aria-pressed="false">▶ Play the timeline</button>
+    <button class="btn" id="clear">Show all</button>
+  </div>
+  <div class="mapgrid">
+    <div>
+      <div id="mapbox"><svg id="map" role="img" aria-label="World map of the journeys"></svg>
+        <div class="zoombtns"><button class="btn" id="zin" aria-label="Zoom in">+</button><button class="btn" id="zout" aria-label="Zoom out">−</button></div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="chart" id="timeline"></div>
+      <div class="src">Map: Equal Earth projection; land from Natural Earth. Lines are drawn through the recorded stops: sea legs are routed round land on a half-degree grid, land legs follow great circles. They show the order of places, not a track anyone logged. Drag to pan; pinch, scroll or use the buttons to zoom.</div>
+    </div>
+    <div class="side"><div class="card empty" id="card">Tap a route on the map, a bar on the timeline, or choose a journey above.</div></div>
+  </div>
+</div>
+
+<h2><span class="n">02 · Evidence</span>The further back, the thinner the ink</h2>
+<p>Of the {{pre1450.n}} journeys that began before 1450, only {{pre1450.proven}} are proven. Of the {{post1450.n}} that began after, {{post1450.proven}} are. Before AD 500 just {{eras.0.grades.Proven|words}} of {{eras.0.n}} counts as proven: Zhang Qian's mission to Central Asia, told by a court historian within living memory and followed by documented embassies and trade. All {{grade_counts.Legend}} legends begin before 1450.</p>
+<p>That is not because ancient travellers went less far. It is because the evidence for an ancient journey is usually one text, often written long afterwards by someone who was not there: Herodotus on the Phoenicians who sailed round Africa, the <i>Book of the Later Han</i> on Gan Ying, the Saga of the Greenlanders on Bjarni. Printed books, logbooks, telegrams and photographs changed that. From Columbus onwards, the question stops being "did it happen?" and becomes "exactly where?".</p>
+<div class="figure">
+  <div class="fig-h">Each journey, by era and grade of evidence</div>
+  <div class="fig-sub">One square per journey; hover or tap for its name</div>
+  <div class="chart" id="cEra"></div>
+  <div class="src">Era is the year the journey began. Antiquity: before AD 500; Middle Ages: 500 to 1449; Age of sail: 1450 to 1799; Modern: 1800 onwards.</div>
+</div>
+<p>The grade shows up in the map itself. Of the stops on proven journeys, {{stop_conf_by_grade.Proven.share_conjectural|pct0}} are conjectural (a place we can only guess at); on probable journeys {{stop_conf_by_grade.Probable.share_conjectural|pct0}}; on disputed ones {{stop_conf_by_grade.Disputed.share_conjectural|pct0}}; and on legends {{stop_conf_by_grade.Legend.share_conjectural|pct0}}. Measured by distance, {{sure_share_by_grade.Proven|pct0}} of the line on a proven journey runs between places we can identify, against {{sure_share_by_grade.Legend|pct0}} on a legend.</p>
+<p class="pull">A legend is not only a story nobody can check. It is a line with nowhere solid to stand.</p>
+
+<h2><span class="n">03 · Coming home</span>Did they come back?</h2>
+<p>{{return_counts.returned}} of the {{n_journeys}} parties came home whole, at least as their sources tell it. In {{return_counts.some}} more, some came back and some did not: of about 170 men with da Gama, roughly 55; of about 270 with Magellan, 18 on the <i>Victoria</i>; of the four men of Burke and Wills who crossed Australia, only John King. {{return_counts.never|Words}} parties never came home, and for {{return_counts.unknown|words}} nobody knows.</p>
+<p>Coming back is usually how we know. Most of these journeys survive because somebody returned to write them down or tell them, which is why the "never returned" column is so odd. It holds the best-documented losses of all, Franklin, La Perouse and Scott, found through notes, wrecks and bodies, and two legends whose whole point is that nobody returned: Xu Fu, who sailed for the isles of the immortals in 210 BC, and the Roman legion said to have ended up in China.</p>
+<div class="figure">
+  <div class="fig-h">Who came back, by grade of evidence</div>
+  <div class="fig-sub">Number of journeys; one square each</div>
+  <div class="chart" id="cRet"></div>
+  <div class="src">"Some returned" means part of the party came home. Ibn Fadlan's account breaks off before his return; the fate of the AD 166 "Roman" visitors, the Polynesian voyagers and Madoc is unknown, and the 1421 claim has no voyage to return from.</div>
+</div>
+
+<h2><span class="n">04 · Distance and pace</span>How far, and how fast</h2>
+<p>Laid end to end, the drawn routes come to {{km_total_all|int}} km. The longest single journey on the map is {{longest.0.name}} at {{longest.0.km|int}} km, followed by {{longest.1.name}} at {{longest.1.km|int}} km. These are drawn distances along my lines, so they are minimums for the real tracks, and they mean the least where the stops are guesswork.</p>
+<div class="figure">
+  <div class="fig-h">Drawn distance of each journey, by date</div>
+  <div class="fig-sub">Kilometres, log scale; colour is the grade of evidence</div>
+  <div class="chart" id="cDist"></div>
+  <div class="src">The time axis is stretched after AD 1000, where most journeys fall.</div>
+</div>
+<p>Speed needs dates at both ends, which only {{n_passages}} passages on the map have, all from the better-documented journeys. Ships under sail made a median {{sail_median_kmd|f0}} km a day across {{passage_modes.Sailing ship.n}} dated passages. Da Gama's crossing from Malindi to Calicut took {{da_gama_out_back.out_days}} days with the monsoon behind him ({{da_gama_out_back.out_kmd|f0}} km a day); the return, against it, took {{da_gama_out_back.back_days}} days ({{da_gama_out_back.back_kmd|f0}} km a day), and about half the crew died on the crossing. Horsemen riding to the Mongol court covered {{passage_modes.On horseback.min|f0}} to {{passage_modes.On horseback.max|f0}} km a day, as fast as a balsa raft drifting across the Pacific.</p>
+<div class="figure">
+  <div class="fig-h">Kilometres a day on dated passages, by how they travelled</div>
+  <div class="fig-sub">Drawn distance between two dated stops, divided by the days between them (log scale)</div>
+  <div class="chart" id="cSpeed"></div>
+  <div class="src">Includes time spent waiting in port or in camp between the two dates. Land distances are straight lines between stops and understate the ground covered.</div>
+</div>
+<p>The two polar parties show how little pace alone explains. Amundsen's dog teams went out at {{pole.amundsen_out_kmd|f1}} km a day and came back faster, at {{pole.amundsen_back_kmd|f1}}. Scott's man-hauling party managed {{pole.scott_out_kmd|f1}} going out and {{pole.scott_back_kmd|f1}} coming back, counting to the day they were stopped by the last blizzard, eleven miles from food and fuel. The slowest passage of all was not a journey anyone chose: <i>Endurance</i> drifted in the pack ice of the Weddell Sea at {{slowest_passage.km_per_day|f1}} km a day for {{slowest_passage.days}} days before she was abandoned.</p>
+
+<h2><span class="n">05 · Mirror journeys</span>Going the other way</h2>
+<p>Some journeys make most sense in pairs: travellers heading in opposite directions along the same routes, sometimes in the same years. Tap one to see both on the map.</p>
+<div class="mirrors bleed" id="mirrors"></div>
+
+<h2><span class="n">06 · Checking my lines</span>Do the drawn routes add up?</h2>
+<p>For {{stated_vs_drawn_n|words}} journeys the article itself gives a distance I can compare with mine. My drawn routes come out between {{stated_vs_drawn_ratio_range.0|pct0}} and {{stated_vs_drawn_ratio_range.1|pct0}} of the stated figures. Carpine's ride from Batu's camp to the Khan, which he estimated at 3,000 miles (about {{carpine_check.stated_km|int}} km), measures {{carpine_check.drawn_km|int}} km on my map. Burke and Wills is the outlier, at the low end: a line through a handful of stops cuts every corner of a real overland route.</p>
+<div class="figure">
+  <div class="tablewrap"><table class="t" id="tCheck"></table></div>
+</div>
+
+<h2><span class="n">07 · Limits</span>What this map can and cannot say</h2>
+<p><b>The grades are judgements.</b> I set them from what each article says about its sources, using four simple rules, and I give the reason on every story card. Reasonable people would move some journeys: Marco Polo (probable here, because it rests on one book, though details are confirmed elsewhere), the Norse (proven for the crossing, which archaeology shows, not for every saga detail) or Polynesian contact with South America (disputed here, though genetics now makes some contact very likely).</p>
+<p><b>Wikipedia is the source.</b> Every route, date and debate comes from the English Wikipedia article on the journey, read in October 2026. That makes the work checkable and the sources easy to follow, but it inherits the articles' choices, gaps and errors. I checked a few facts against other sources and note them where I used them.</p>
+<p><b>The lines are drawn, not logged.</b> Stops come from named places in the articles. Between stops I drew the shortest plausible path, and I added {{n_drawn_points|int}} routing points to keep lines on sensible courses. None of these is a stop, and none is shown as one.</p>
+<p><b>The selection is mine.</b> These {{n_journeys}} are not a sample of all journeys. I chose famous ones, some lost ones and some legends, and tried to cover the world rather than only Europe. A different set would give different shares.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Sources.</b> The full English Wikipedia text of {{n_articles_used}} articles about these journeys and their travellers. For each journey I read the article's own account of the route, dates, evidence and debates, and noted the article and section behind every stop.</p>
+  <p><b>Places.</b> {{n_stops}} stops: {{coord_sources.wikipedia}} take the coordinates of the Wikipedia article for that place, {{coord_sources.geonames}} come from the GeoNames gazetteer (a nearby town where the article names a region or an old site), and {{coord_sources.text}} are positions given in the article text itself, such as the latitude where <i>Endurance</i> was abandoned. Each stop is rated known ({{stop_conf.known}}), approximate ({{stop_conf.approximate}}) or conjectural ({{stop_conf.conjectural}}).</p>
+  <p><b>Routes.</b> Land legs are great circles between stops. Sea legs are the shortest path on a half-degree grid of open sea (from Natural Earth coastlines, with narrow straits opened by hand), smoothed into straight runs. Distances are measured along the drawn line.</p>
+  <p><b>Grades.</b> Proven: archaeology, physical remains or several independent records of the journey. Probable: one good written source, usually first-hand, with nothing serious against it. Disputed: scholars seriously argue over whether, or how far, it happened. Legend: myth, legend, oral tradition or modern speculation without evidence. "Did they come back?" follows the main source.</p>
+  <p><b>Speed.</b> Only for passages with a departure and an arrival date in the article: drawn kilometres divided by days.</p>
+</div>
+
+<h2><span class="n">08 · All journeys</span>The full list</h2>
+<p>Every journey with its grade and outcome. Tap a row to show it on the map.</p>
+<div class="figure bleed"><div class="tablewrap"><table class="t" id="tAll"></table></div></div>
+
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/there-and-back-again">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23686756">Paper and data on Zenodo</a>
+  <a href="https://blog.tristanhotham.com/">More data stories on the blog</a>
+</div>
+
+<footer>
+  <p>Dr Tristan Hotham, researcher on social media, campaigns and politics. Independent researcher. Cite as: Hotham, T. (2026) <i>There and Back Again: 2,500 years of great journeys, and how sure we are that they happened</i>. Zenodo. <a href="https://doi.org/10.5281/zenodo.23686756">https://doi.org/10.5281/zenodo.23686756</a></p>
+  <p>Routes, dates and evidence are drawn from English Wikipedia articles (CC BY-SA 4.0), named on every story card. Place coordinates: Wikipedia (via the MediaWiki API) and <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). Land and coastlines: <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain). Genetic evidence for Polynesian contact: Ioannidis, A. G. and others (2020), <i>Nature</i> 583, <a href="https://pubmed.ncbi.nlm.nih.gov/32641827/">PubMed 32641827</a>. Map and charts drawn with D3.</p>
+  <p>Because the routes and text draw on Wikipedia, the data and text on this page are released under CC BY-SA 4.0. Code is MIT.</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+  <p><a href="https://blog.tristanhotham.com/">blog.tristanhotham.com</a></p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+/*DATA*/
+const NS = "http://www.w3.org/2000/svg";
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => Math.round(n).toLocaleString("en-GB");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h, onclick) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("focus", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { e.stopPropagation(); if (onclick) onclick(); else s(); }); node.addEventListener("keydown", e => { if (e.key === "Enter" && onclick) onclick(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); redraws.push(() => go(true)); go(); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const R = D.R, JJ = D.J, BYID = Object.fromEntries(JJ.map(j => [j.id, j]));
+const GRADES = ["Proven", "Probable", "Disputed", "Legend"], GV = { Proven: "--g0", Probable: "--g1", Disputed: "--g2", Legend: "--g3" };
+const gcol = g => css(GV[g]);
+const RETL = { returned: "Returned", some: "Some returned", never: "Never returned", unknown: "Unknown" };
+const yearTxt = y => { y = Math.floor(y); return y < 0 ? `${-y} BC` : y < 1000 ? `AD ${y}` : `${y}`; };
+const wiki = s => { const [a, sec] = s.split("#"); return `https://en.wikipedia.org/wiki/${encodeURIComponent(a.replace(/ /g, "_"))}${sec ? "#" + encodeURIComponent(sec.replace(/ /g, "_")) : ""}`; };
+/* time scale: stretched after AD 1000 */
+const TBR = [-650, 0, 1000, 1400, 1600, 1800, 1960], TPOS = [0, .12, .34, .55, .7, .84, 1];
+const tpos = y => { for (let i = 0; i < TBR.length - 1; i++) if (y <= TBR[i + 1]) return TPOS[i] + (y - TBR[i]) / (TBR[i + 1] - TBR[i]) * (TPOS[i + 1] - TPOS[i]); return 1; };
+const TTICKS_S = [[-600, "600 BC"], [500, "500"], [1000, "1000"], [1400, "1400"], [1600, "1600"], [1800, "1800"]];
+const TTICKS = [[-600, "600 BC"], [0, "AD 1"], [500, "500"], [1000, "1000"], [1200, "1200"], [1400, "1400"], [1500, "1500"], [1600, "1600"], [1700, "1700"], [1800, "1800"], [1900, "1900"]];
+document.getElementById("theme").onclick = () => { const r = document.documentElement; const dark = r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; r.dataset.theme = dark ? "light" : "dark"; redraws.forEach(f => f()); };
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraws.forEach(f => f()));
+
+/* hero mark: a compass rose with an out-and-back loop */
+(() => { const g = document.getElementById("heroMark");
+  el("circle", { r: 78, fill: "none", stroke: "var(--fg)", "stroke-width": 2.5 }, g);
+  el("circle", { r: 70, fill: "none", stroke: "var(--fg)", "stroke-width": 1, opacity: .5 }, g);
+  for (let i = 0; i < 32; i++) { const a = i * Math.PI / 16, r1 = i % 4 ? 72 : 64; el("line", { x1: Math.cos(a) * r1, y1: Math.sin(a) * r1, x2: Math.cos(a) * 78, y2: Math.sin(a) * 78, stroke: "var(--fg)", "stroke-width": i % 4 ? 1 : 2 }, g); }
+  el("path", { d: "M0 -60 L9 0 L0 60 L-9 0Z", fill: "var(--fg)", opacity: .85 }, g); el("path", { d: "M-60 0 L0 -9 L60 0 L0 9Z", fill: "var(--fg)", opacity: .35 }, g);
+  el("path", { d: "M-52 30 C-30 -40 30 -50 46 -22", fill: "none", stroke: "var(--g0)", "stroke-width": 4, "stroke-linecap": "round" }, g);
+  el("path", { d: "M46 -22 C40 20 -10 48 -52 30", fill: "none", stroke: "var(--hot)", "stroke-width": 4, "stroke-dasharray": "7 6", "stroke-linecap": "round" }, g);
+  el("circle", { cx: -52, cy: 30, r: 6, fill: "var(--fg)" }, g); el("circle", { cx: 46, cy: -22, r: 5, fill: "var(--hot)" }, g);
+})();
+
+/* ===================== MAP ===================== */
+const state = { grades: new Set(GRADES), era: "", ret: "", reg: "", sel: null, also: null };
+const regions = [...new Set(JJ.map(j => j.rg))].sort();
+const fReg = document.getElementById("fReg"); regions.forEach(r => { const o = document.createElement("option"); o.textContent = r; fReg.appendChild(o); });
+const pick = document.getElementById("pick");
+GRADES.forEach(g => { const og = document.createElement("optgroup"); og.label = g; JJ.filter(j => j.g === g).sort((a, b) => a.y0 - b.y0).forEach(j => { const o = document.createElement("option"); o.value = j.id; o.textContent = `${j.n} (${yearTxt(j.y0)})`; og.appendChild(o); }); pick.appendChild(og); });
+const visible = j => state.grades.has(j.g) && (!state.era || j.era === state.era) && (!state.ret || j.r === state.ret) && (!state.reg || j.rg === state.reg);
+const svg = d3.select("#map"), W = 1000, H = 520;
+svg.attr("viewBox", `0 0 ${W} ${H}`);
+const proj = d3.geoEqualEarth().rotate([-15, 0]).fitExtent([[6, 6], [W - 6, H - 6]], { type: "Sphere" });
+const gp = d3.geoPath(proj);
+const root = svg.append("g"), gBase = root.append("g"), gRoutes = root.append("g"), gTop = root.append("g");
+/* Antarctic inset (polar journeys draw badly on a world projection) */
+const POLAR = new Set(["amundsen", "scott"]);
+const IC = [96, 428], IR = 82;
+const projP = d3.geoAzimuthalEquidistant().rotate([0, 90]).clipAngle(15).fitExtent([[IC[0] - IR, IC[1] - IR], [IC[0] + IR, IC[1] + IR]], d3.geoCircle().center([0, -90]).radius(15)());
+const gpP = d3.geoPath(projP);
+const inset = svg.append("g").attr("class", "inset-root"), iBase = inset.append("g"), iRoutes = inset.append("g"), iTop = inset.append("g");
+const TOP = id => POLAR.has(id) ? iTop : gTop;
+const PJ = id => POLAR.has(id) ? projP : proj, GP = id => POLAR.has(id) ? gpP : gp;
+let K = 1; window.KZ = () => K;
+function drawBase() {
+  gBase.selectAll("*").remove();
+  gBase.append("path").datum({ type: "Sphere" }).attr("d", gp).attr("fill", css("--sea")).attr("stroke", css("--coast")).attr("stroke-width", 1.2).attr("vector-effect", "non-scaling-stroke");
+  gBase.append("path").datum(d3.geoGraticule10()).attr("d", gp).attr("fill", "none").attr("stroke", css("--grat")).attr("stroke-width", .6).attr("vector-effect", "non-scaling-stroke");
+  gBase.append("path").datum(LAND).attr("d", gp).attr("fill", css("--land")).attr("stroke", css("--coast")).attr("stroke-width", .6).attr("vector-effect", "non-scaling-stroke");
+  iBase.selectAll("*").remove();
+  iBase.append("circle").attr("cx", IC[0]).attr("cy", IC[1]).attr("r", IR + 3).attr("fill", css("--card")).attr("stroke", css("--coast")).attr("stroke-width", 1.2);
+  iBase.append("path").datum(d3.geoGraticule().step([30, 5])()).attr("d", gpP).attr("fill", "none").attr("stroke", css("--grat")).attr("stroke-width", .6);
+  iBase.append("path").datum(LAND).attr("d", gpP).attr("fill", css("--land")).attr("stroke", css("--coast")).attr("stroke-width", .6);
+  iBase.append("text").attr("x", IC[0]).attr("y", IC[1] - IR - 8).attr("text-anchor", "middle").attr("class", "lab s m").text("South Pole inset");
+}
+/* arrowhead markers per grade */
+const defs = svg.append("defs");
+function markers() { defs.selectAll("*").remove(); GRADES.forEach((g, i) => { defs.append("marker").attr("id", "ar" + i).attr("viewBox", "0 0 10 10").attr("refX", 6).attr("refY", 5).attr("markerWidth", 4.2).attr("markerHeight", 4.2).attr("orient", "auto-start-reverse").append("path").attr("d", "M0 0 L10 5 L0 10 z").attr("fill", gcol(g)); }); }
+const ml = legs => ({ type: "MultiLineString", coordinates: legs });
+const routeEls = {};
+function drawRoutes() {
+  gRoutes.selectAll("*").remove(); gTop.selectAll("*").remove(); iRoutes.selectAll("*").remove(); iTop.selectAll("*").remove();
+  for (const j of JJ) {
+    const gp = GP(j.id), proj = PJ(j.id);
+    const g = (POLAR.has(j.id) ? iRoutes : gRoutes).append("g").attr("class", "jr").attr("data-id", j.id);
+    const c = gcol(j.g), gi = GRADES.indexOf(j.g);
+    const hit = g.append("path").datum(ml([...j.out, ...j.back])).attr("d", gp).attr("fill", "none").attr("stroke", "transparent").attr("stroke-width", 12).attr("vector-effect", "non-scaling-stroke").style("cursor", "pointer");
+    const out = g.append("path").datum(ml(j.out)).attr("class", "route").attr("d", gp).attr("stroke", c).attr("data-w", 1.7).attr("marker-end", `url(#ar${gi})`);
+    const back = j.back.length ? g.append("path").datum(ml(j.back)).attr("class", "route back").attr("d", gp).attr("stroke", c).attr("data-w", 1.5).attr("data-dash", "5 4").attr("marker-end", `url(#ar${gi})`) : null;
+    const [ex, ey] = proj(j.end);
+    let endm = null;
+    if (j.r === "never") endm = g.append("path").attr("d", "M-5 -5 L5 5 M-5 5 L5 -5").attr("stroke", c).attr("stroke-width", 2.6).attr("transform", `translate(${ex},${ey})`).attr("data-pt", `${ex},${ey}`);
+    else if (j.r === "unknown") { endm = g.append("g").attr("transform", `translate(${ex},${ey})`).attr("data-pt", `${ex},${ey}`); endm.append("circle").attr("r", 6.5).attr("fill", css("--card")).attr("stroke", c).attr("stroke-width", 1.6); endm.append("text").attr("y", 3.6).attr("text-anchor", "middle").attr("font-size", 10).attr("font-weight", 600).attr("fill", c).text("?"); }
+    const [sx, sy] = proj([j.wp[0][2], j.wp[0][1]]);
+    const st = g.append("circle").attr("r", 2.4).attr("fill", c).attr("transform", `translate(${sx},${sy})`).attr("data-pt", `${sx},${sy}`);
+    routeEls[j.id] = { g, out, back, endm, st };
+    hit.on("pointerenter", e => showTip(`<b>${esc(j.n)}</b><br>${esc(j.dt)}<br>${j.g} · ${RETL[j.r]}`, e.clientX, e.clientY - 4)).on("pointerleave", hideTip).on("click", e => { e.stopPropagation(); select(j.id); });
+  }
+  applyZoom(); applyFilters();
+}
+function applyZoom() {
+  const kf = n => n.closest("g.inset-root") ? 1 : K;
+  d3.selectAll("#map .jr path.route").each(function () { const k = kf(this), p = d3.select(this), w = +p.attr("data-w"), d = p.attr("data-dash"), on = this.parentNode.classList.contains("sel"); p.attr("stroke-width", (on ? w * 1.9 : w) / k); if (d) p.attr("stroke-dasharray", d.split(" ").map(x => x * (on ? 1.4 : 1) / k).join(" ")); });
+  d3.selectAll("#map [data-pt]").each(function () { const k = kf(this), [x, y] = this.getAttribute("data-pt").split(",").map(Number); const r = this.getAttribute("data-rot") || 0; this.setAttribute("transform", `translate(${x},${y}) rotate(${r}) scale(${1 / k})`); });
+  d3.selectAll("#map path.anim").each(function () { this.setAttribute("stroke-width", 3.6 / kf(this)); });
+}
+const zoom = d3.zoom().scaleExtent([1, 10]).translateExtent([[0, 0], [W, H]]).on("zoom", e => { K = e.transform.k; root.attr("transform", e.transform); inset.style("display", K > 1.15 && !POLAR.has(state.sel) && !POLAR.has(state.also) ? "none" : null); applyZoom(); });
+svg.call(zoom).on("dblclick.zoom", null);
+document.getElementById("zin").onclick = () => svg.transition().duration(reduce ? 0 : 300).call(zoom.scaleBy, 1.6);
+document.getElementById("zout").onclick = () => svg.transition().duration(reduce ? 0 : 300).call(zoom.scaleBy, 1 / 1.6);
+svg.on("click", () => { if (state.sel) select(null); });
+function applyFilters() {
+  for (const j of JJ) { const e = routeEls[j.id]; if (!e) continue; e.g.classed("hide", !visible(j) && state.sel !== j.id && state.also !== j.id); }
+  gRoutes.classed("dim", !!state.sel); iRoutes.classed("dim", !!state.sel);
+  drawTimeline();
+}
+function legendHtml() {
+  const line = (dash, c = "var(--fg)") => `<svg width="26" height="8"><line x1="1" y1="4" x2="25" y2="4" stroke="${c}" stroke-width="2" ${dash ? 'stroke-dasharray="5 3"' : ""}/></svg>`;
+  document.getElementById("legend").innerHTML = `<span>${line(false)}Outward leg</span><span>${line(true)}Return leg</span><span><svg width="14" height="14"><path d="M3 3 L11 11 M3 11 L11 3" stroke="var(--fg)" stroke-width="2"/></svg>Never returned</span><span><svg width="16" height="16"><circle cx="8" cy="8" r="6.5" fill="var(--card)" stroke="var(--fg)" stroke-width="1.4"/><text x="8" y="11.5" text-anchor="middle" font-size="10" font-weight="600">?</text></svg>Return unknown</span>` + GRADES.map(g => `<span>${line(false, `var(${GV[g]})`)}${g}</span>`).join("");
+}
+/* selection, waypoints, arrowheads along the line */
+function select(id, also = null) {
+  stopAnim(); state.sel = id; state.also = also; hideTip();
+  d3.selectAll("#map .jr").classed("sel", false); d3.selectAll("#map path.route").classed("on", false); gTop.selectAll("*").remove(); iTop.selectAll("*").remove();
+  if (!id) { pick.value = ""; card.className = "card empty"; card.innerHTML = "Tap a route on the map, a bar on the timeline, or choose a journey above."; applyFilters(); applyZoom(); return; }
+  pick.value = id;
+  for (const k of [id, also].filter(Boolean)) { const e = routeEls[k]; e.g.classed("sel", true).classed("hide", false).raise(); e.g.selectAll("path.route").classed("on", true); e.g.selectAll("circle,g,path:not(.route)").classed("on", true); }
+  for (const k of [id, also].filter(Boolean)) drawStops(BYID[k]);
+  applyFilters(); applyZoom(); fillCard(BYID[id], also ? BYID[also] : null);
+  zoomTo([id, also].filter(Boolean));
+}
+function drawStops(j) {
+  const c = gcol(j.g), gTop = TOP(j.id), proj = PJ(j.id), K = POLAR.has(j.id) ? 1 : window.KZ();
+  // extra arrowheads every so often along each leg
+  const e = routeEls[j.id];
+  for (const p of [e.out, e.back].filter(Boolean)) {
+    const node = p.node(), L = node.getTotalLength(); const n = Math.max(1, Math.floor(L / 70));
+    for (let i = 1; i <= n; i++) { const t = L * i / (n + 1), a = node.getPointAtLength(t), b = node.getPointAtLength(Math.min(L, t + 1)); if (Math.hypot(b.x - a.x, b.y - a.y) > 5) continue; const ang = Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI;
+      gTop.append("path").attr("d", "M-4 -3.4 L4 0 L-4 3.4 z").attr("fill", c).attr("data-pt", `${a.x},${a.y}`).attr("data-rot", ang).style("pointer-events", "none"); }
+  }
+  for (const w of j.wp) {
+    const [x, y] = proj([w[2], w[1]]); const conf = w[5];
+    const m = gTop.append("circle").attr("r", 3.6).attr("data-pt", `${x},${y}`).attr("fill", conf === "k" ? c : css("--card")).attr("stroke", c).attr("stroke-width", 1.5).attr("stroke-dasharray", conf === "c" ? "2 1.5" : null);
+    m.on("pointerenter", ev => showTip(`<b>${esc(w[0])}</b><br>${w[3] ? esc(w[3].replace(/^c\. /, "about ")) + " · " : ""}${{ k: "known", a: "approximate", c: "conjectural" }[conf]} · ${w[4] === "o" ? "outward" : "return"}${w[7] ? "<br>" + esc(w[7]) : ""}`, ev.clientX, ev.clientY - 4)).on("pointerleave", hideTip).on("click", ev => ev.stopPropagation());
+  }
+}
+function zoomTo(ids) {
+  ids = ids.filter(id => !POLAR.has(id));
+  if (!ids.length) { svg.transition().duration(reduce ? 0 : 700).call(zoom.transform, d3.zoomIdentity); return; }
+  const pts = []; ids.forEach(id => { const j = BYID[id]; [...j.out, ...j.back].forEach(l => l.forEach(p => pts.push(proj(p)))); });
+  const xs = pts.map(p => p[0]).filter(isFinite), ys = pts.map(p => p[1]).filter(isFinite);
+  let x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const k = Math.max(1, Math.min(6, .82 / Math.max((x1 - x0) / W, (y1 - y0) / H)));
+  const tx = W / 2 - k * (x0 + x1) / 2, ty = H / 2 - k * (y0 + y1) / 2;
+  svg.transition().duration(reduce ? 0 : 700).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+}
+const card = document.getElementById("card");
+function fillCard(j, other) {
+  card.className = "card"; card.style.borderLeftColor = gcol(j.g);
+  const mir = D.M.filter(m => m[0] === j.id || m[1] === j.id);
+  const kmTxt = `${fmt(j.km)} km drawn` + (j.kb ? ` (${fmt(j.ko)} out, ${fmt(j.kb)} back)` : "") + (j.sk ? `<br><span style="color:var(--muted)">Article: ${esc(j.skn)}</span>` : "");
+  const sure = `${Math.round(j.ss * 100)}% of the line runs between places we can identify`;
+  const pace = j.kmd ? `${j.kmd.toFixed(1)} km a day over ${fmt(j.d)} days, stops included` : "Not computed (dates too vague)";
+  card.innerHTML = `<span class="pill" style="background:${gcol(j.g)}">${j.g}</span> <span style="color:var(--muted)">${esc(j.era)} · ${esc(j.m)}</span>
+  <span class="t">${esc(j.n)}</span>
+  <dl><dt>Who</dt><dd>${esc(j.who)}</dd><dt>When</dt><dd>${esc(j.dt)}</dd><dt>From</dt><dd>${esc(j.wp[0][0])}</dd><dt>Furthest</dt><dd>${esc(turn(j))}</dd>
+  <dt>Back?</dt><dd><b style="font:500 13px var(--mono);display:inline">${RETL[j.r]}.</b> ${esc(j.rn)}</dd><dt>Distance</dt><dd>${kmTxt}<br><span style="color:var(--muted)">${sure}</span></dd><dt>Pace</dt><dd>${pace}</dd></dl>
+  <div class="why"><b style="font:600 15px var(--display);display:inline">Why ${j.g.toLowerCase()}?</b> ${esc(j.why)}</div>
+  <div style="color:var(--muted)">Evidence: ${esc(j.ev.join(", "))}</div>
+  ${mir.length ? `<div style="margin-top:8px">${mir.map(m => { const o = m[0] === j.id ? m[1] : m[0]; return `Mirror: <a href="#" data-mirror="${j.id},${o}">${esc(BYID[o].n)}</a>`; }).join("<br>")}</div>` : ""}
+  <details><summary>The ${j.wp.length} stops, in order</summary><ol>${j.wp.map(w => `<li>${esc(w[0])}${w[3] ? ` <span style="color:var(--muted)">${esc(w[3].replace(/^c\. /, "c. "))}</span>` : ""} <span style="color:var(--muted)">· ${{ k: "known", a: "approx.", c: "conjectural" }[w[5]]}${w[4] === "b" ? " · return" : ""}</span><br><span style="color:var(--muted);font-size:11.5px">${esc(w[8])}${w[6] ? `; <a href="${wiki(w[6])}" target="_blank" rel="noopener">source</a>` : ""}</span></li>`).join("")}</ol></details>
+  <div style="margin-top:8px">Sources: ${[...new Set(j.art)].map(a => `<a href="${wiki(a)}" target="_blank" rel="noopener">${esc(a.replace("#", ": ").replace(/\u2013/g, " to "))}</a>`).join("; ")}${j.urls.map(u => `; <a href="${u}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//, ""))}</a>`).join("")}</div>
+  <div class="acts"><button class="btn" id="animBtn">▶ Travel it</button>${other ? `<button class="btn" data-sel="${other.id}">Show ${esc(other.n)}</button>` : ""}</div>`;
+  card.querySelectorAll("[data-mirror]").forEach(a => a.onclick = ev => { ev.preventDefault(); const [x, y] = a.dataset.mirror.split(","); select(x, y); });
+  card.querySelectorAll("[data-sel]").forEach(b => b.onclick = () => select(b.dataset.sel));
+  document.getElementById("animBtn").onclick = () => travel(j);
+}
+const turn = j => { const outs = j.wp.filter(w => w[4] === "o"); return outs.length ? outs[outs.length - 1][0] : j.wp[j.wp.length - 1][0]; };
+/* travel animation: a bright line grows along the route, out then back, with a moving dot */
+let animRaf = null;
+function stopAnim() { if (animRaf) cancelAnimationFrame(animRaf); animRaf = null; d3.selectAll("#map .anim").remove(); }
+function travel(j) {
+  stopAnim(); const e = routeEls[j.id], gTop = TOP(j.id), K = POLAR.has(j.id) ? 1 : window.KZ(); const legs = [e.out, e.back].filter(Boolean).map(p => p.node());
+  const lens = legs.map(n => n.getTotalLength()), tot = lens.reduce((a, b) => a + b, 0);
+  const paths = legs.map((n, i) => gTop.append("path").attr("class", "anim").attr("d", n.getAttribute("d")).attr("fill", "none").attr("stroke", css("--hot")).attr("stroke-linecap", "round").attr("stroke-width", 3.6 / K).attr("stroke-dasharray", `0 ${lens[i] + 1}`));
+  const dot = gTop.append("circle").attr("class", "anim").attr("r", 5.5).attr("fill", css("--hot")).attr("stroke", css("--card")).attr("stroke-width", 2);
+  const dur = reduce ? 1 : Math.min(9000, 2500 + tot * 6), t0 = performance.now();
+  const step = now => { const f = Math.min(1, (now - t0) / dur); let d = f * tot;
+    for (let i = 0; i < legs.length; i++) { const s = Math.max(0, Math.min(lens[i], d)); paths[i].attr("stroke-dasharray", `${s} ${lens[i] + 1}`); if (d <= lens[i] || i === legs.length - 1) { const p = legs[i].getPointAtLength(Math.max(0, Math.min(lens[i], d))); dot.attr("data-pt", `${p.x},${p.y}`).attr("transform", `translate(${p.x},${p.y}) scale(${1 / K})`); break; } d -= lens[i]; }
+    if (f < 1) animRaf = requestAnimationFrame(step); else { animRaf = null; setTimeout(() => d3.selectAll("#map .anim").transition().duration(800).style("opacity", 0).remove(), 600); } };
+  animRaf = requestAnimationFrame(step);
+}
+pick.onchange = () => select(pick.value || null);
+document.getElementById("clear").onclick = () => { state.grades = new Set(GRADES); state.era = state.ret = state.reg = ""; document.querySelectorAll("[data-grade]").forEach(b => b.setAttribute("aria-pressed", "true")); ["fEra", "fRet", "fReg"].forEach(i => document.getElementById(i).value = ""); select(null); svg.transition().duration(reduce ? 0 : 600).call(zoom.transform, d3.zoomIdentity); };
+document.querySelectorAll("[data-grade]").forEach(b => b.onclick = () => { const g = b.dataset.grade; state.grades.has(g) ? state.grades.delete(g) : state.grades.add(g); b.setAttribute("aria-pressed", state.grades.has(g)); applyFilters(); });
+document.getElementById("fEra").onchange = e => { state.era = e.target.value; applyFilters(); };
+document.getElementById("fRet").onchange = e => { state.ret = e.target.value; applyFilters(); };
+fReg.onchange = e => { state.reg = e.target.value; applyFilters(); };
+
+/* timeline strip: one lane per grade; play sweeps through time and reveals routes */
+let tl = { cursor: null };
+function drawTimeline() {
+  const box = document.getElementById("timeline"); box.innerHTML = ""; const w = Math.max(300, box.clientWidth), small = w < 560;
+  const ml0 = small ? 62 : 76, mr = 10, lane = small ? 15 : 17, top = 8, h = top + lane * 4 + 34;
+  const s = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Timeline of journeys by grade" }, box);
+  const X = y => ml0 + tpos(y) * (w - ml0 - mr);
+  GRADES.forEach((g, i) => { el("rect", { x: ml0, y: top + i * lane, width: w - ml0 - mr, height: lane - 3, fill: css("--panel"), opacity: .7 }, s); lbl(s, ml0 - 6, top + i * lane + lane / 2 + 2, g, "lab s m", "end"); });
+  (small ? TTICKS_S : TTICKS).forEach(([y, t], i) => { const x = X(y); el("line", { x1: x, x2: x, y1: top, y2: top + lane * 4, stroke: css("--rule") }, s); lbl(s, x, top + lane * 4 + 13, t, "lab s m", "middle"); });
+  lbl(s, w - mr, h - 3, "time stretched after AD 1000", "lab s m", "end");
+  for (const j of JJ) { if (!visible(j) && state.sel !== j.id) continue; const i = GRADES.indexOf(j.g), x0 = X(j.y0), x1 = Math.max(x0 + 5, X(j.y1));
+    const r = el("rect", { x: x0, y: top + i * lane + 2, width: x1 - x0, height: lane - 7, rx: 2, fill: gcol(j.g), opacity: state.sel && state.sel !== j.id && state.also !== j.id ? .3 : (tl.cursor != null && j.y0 > tl.cursor ? .12 : .95) }, s);
+    hover(r, `<b>${esc(j.n)}</b><br>${esc(j.dt)}`, () => select(j.id)); }
+  if (tl.cursor != null) { const x = X(tl.cursor); el("line", { x1: x, x2: x, y1: top - 4, y2: top + lane * 4, stroke: css("--hot"), "stroke-width": 2 }, s); lbl(s, Math.min(w - 40, Math.max(ml0 + 30, x)), top + lane * 4 + 26, yearTxt(tl.cursor), "lab b", "middle"); }
+}
+const playBtn = document.getElementById("play"); let playRaf = null;
+playBtn.onclick = () => {
+  if (playRaf) { cancelAnimationFrame(playRaf); playRaf = null; playBtn.textContent = "▶ Play the timeline"; playBtn.setAttribute("aria-pressed", "false"); tl.cursor = null; JJ.forEach(j => routeEls[j.id].g.style("opacity", null)); drawTimeline(); return; }
+  select(null); svg.call(zoom.transform, d3.zoomIdentity); playBtn.textContent = "■ Stop"; playBtn.setAttribute("aria-pressed", "true");
+  const shown = new Set(); JJ.forEach(j => routeEls[j.id].g.style("opacity", 0));
+  const dur = reduce ? 10 : 26000, t0 = performance.now();
+  const step = now => { const f = Math.min(1, (now - t0) / dur); // sweep in stretched-time position
+    let pos = f, y = TBR[0]; for (let i = 0; i < TPOS.length - 1; i++) if (pos <= TPOS[i + 1]) { y = TBR[i] + (pos - TPOS[i]) / (TPOS[i + 1] - TPOS[i]) * (TBR[i + 1] - TBR[i]); break; }
+    tl.cursor = Math.min(1950, y);
+    for (const j of JJ) if (!shown.has(j.id) && j.y0 <= tl.cursor) { shown.add(j.id); reveal(j); }
+    drawTimeline();
+    if (f < 1) playRaf = requestAnimationFrame(step); else { playRaf = null; playBtn.textContent = "▶ Play the timeline"; playBtn.setAttribute("aria-pressed", "false"); setTimeout(() => { tl.cursor = null; drawTimeline(); }, 1500); } };
+  playRaf = requestAnimationFrame(step);
+};
+function reveal(j) {
+  const e = routeEls[j.id], gTop = TOP(j.id), K = POLAR.has(j.id) ? 1 : window.KZ(); e.g.style("opacity", 1);
+  if (reduce) return;
+  [e.out, e.back].filter(Boolean).forEach((p, i) => { const n = p.node(), L = n.getTotalLength(), dash = p.attr("stroke-dasharray");
+    const ghost = gTop.append("path").attr("d", n.getAttribute("d")).attr("fill", "none").attr("stroke", gcol(j.g)).attr("stroke-width", 2.4 / K).attr("stroke-linecap", "round").attr("stroke-dasharray", `0 ${L}`);
+    p.style("opacity", 0);
+    ghost.transition().delay(i * 700).duration(700).ease(d3.easeCubicOut).attrTween("stroke-dasharray", () => t => `${t * L} ${L}`).on("end", () => { p.style("opacity", null); ghost.remove(); }); });
+}
+
+/* ===================== CHARTS ===================== */
+// 1. unit chart by era and grade
+resp(document.getElementById("cEra"), (w, small) => {
+  const eras = R.eras, cell = small ? 15 : 19, gap = 3, lw = small ? 100 : 128, rowH = Math.max(cell * 2 + 30, 58);
+  const h = eras.length * rowH + 22; const s = el("svg", { viewBox: `0 0 ${w} ${h}` }, document.getElementById("cEra"));
+  eras.forEach((e, r) => { const y = 14 + r * rowH; lbl(s, 0, y + cell - 2, e.name, "lab b"); lbl(s, 0, y + cell + 13, e.label, "lab s m");
+    const list = JJ.filter(j => j.era === e.name).sort((a, b) => GRADES.indexOf(a.g) - GRADES.indexOf(b.g) || a.y0 - b.y0);
+    const per = Math.max(1, Math.floor((w - lw) / (cell + gap)));
+    list.forEach((j, i) => { const x = lw + (i % per) * (cell + gap), yy = y + Math.floor(i / per) * (cell + gap);
+      const q = el("rect", { x, y: yy, width: cell, height: cell, rx: 3, fill: gcol(j.g) }, s); hover(q, `<b>${esc(j.n)}</b><br>${esc(j.dt)}<br>${j.g}`, () => { select(j.id); document.getElementById("mapbox").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }); });
+    const pv = e.grades.Proven; lbl(s, 0, y + cell + 27, `${pv} of ${e.n} proven`, "lab s m");
+  });
+  let x = 0; GRADES.forEach(g => { el("rect", { x, y: h - 12, width: 12, height: 12, rx: 2, fill: gcol(g) }, s); lbl(s, x + 16, h - 2, g, "lab s"); x += 16 + g.length * 7.4 + 14; });
+});
+// 2. return by grade (unit grid)
+resp(document.getElementById("cRet"), (w, small) => {
+  const rets = ["returned", "some", "never", "unknown"], lw = small ? 70 : 88, colW = (w - lw) / 4, cell = small ? 11 : 14, gap = 3, rowH = cell * 3 + 18;
+  const h = 26 + GRADES.length * rowH; const s = el("svg", { viewBox: `0 -10 ${w} ${h + 10}` }, document.getElementById("cRet"));
+  rets.forEach((r, c) => { if (small) { lbl(s, lw + c * colW, 2, RETL[r].replace(" returned", ""), "lab s b"); lbl(s, lw + c * colW, 15, `(${R.return_counts[r]})`, "lab s m"); } else lbl(s, lw + c * colW, 14, RETL[r] + ` (${R.return_counts[r]})`, "lab s b"); });
+  GRADES.forEach((g, i) => { const y = 26 + i * rowH; lbl(s, 0, y + cell, g, "lab b"); el("line", { x1: 0, x2: w, y1: y - 6, y2: y - 6, stroke: css("--rule") }, s);
+    rets.forEach((r, c) => { const list = JJ.filter(j => j.g === g && j.r === r); const per = Math.max(1, Math.floor((colW - 8) / (cell + gap)));
+      list.forEach((j, k) => { const x = lw + c * colW + (k % per) * (cell + gap), yy = y + Math.floor(k / per) * (cell + gap);
+        const q = el("rect", { x, y: yy, width: cell, height: cell, rx: 2, fill: gcol(g) }, s); hover(q, `<b>${esc(j.n)}</b><br>${RETL[r]}: ${esc(j.rn)}`); });
+      if (!list.length) lbl(s, lw + c * colW, y + cell - 1, "none", "lab s m"); }); });
+});
+// 3. distance against time
+resp(document.getElementById("cDist"), (w, small) => {
+  const m = { l: 52, r: 12, t: 14, b: 34 }, h = small ? 300 : 360; const s = el("svg", { viewBox: `0 0 ${w} ${h}` }, document.getElementById("cDist"));
+  const X = y => m.l + tpos(y) * (w - m.l - m.r), Y = d3.scaleLog().domain([800, 100000]).range([h - m.b, m.t]);
+  [1000, 3000, 10000, 30000, 100000].forEach(v => { const y = Y(v); el("line", { x1: m.l, x2: w - m.r, y1: y, y2: y, stroke: css("--rule") }, s); lbl(s, m.l - 6, y + 4, v >= 1000 ? fmt(v / 1000) + "k" : v, "lab s m", "end"); });
+  (small ? TTICKS_S : TTICKS).forEach(([y, t]) => { lbl(s, X(y), h - m.b + 16, t, "lab s m", "middle"); });
+  
+  [...JJ].sort((a, b) => b.km - a.km).forEach(j => { const c = el("circle", { cx: X(j.y0), cy: Y(Math.max(800, j.km)), r: small ? 5 : 6, fill: gcol(j.g), stroke: css("--card"), "stroke-width": 1.5 }, s);
+    hover(c, `<b>${esc(j.n)}</b><br>${esc(j.dt)}<br>${fmt(j.km)} km drawn · ${j.g}`, () => { select(j.id); document.getElementById("mapbox").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }); });
+  const lab = [["laperouse", "La Perouse"], ["ibn_battuta", "Ibn Battuta"], ["xu_fu", "Xu Fu"], ["amundsen", "Amundsen"]];
+  lab.forEach(([id, t]) => { const j = BYID[id]; const left = id === "ibn_battuta" || id === "amundsen" || id === "laperouse"; lbl(s, X(j.y0) + (left ? -9 : 9), Y(Math.max(800, j.km)) + 4, t, "lab s", left ? "end" : "start"); });
+});
+// 4. speed by mode (dot plot)
+resp(document.getElementById("cSpeed"), (w, small) => {
+  const P = D.P, modes = [...new Set(P.map(p => p.mode))].sort((a, b) => d3.median(P.filter(p => p.mode === b), p => p.km_per_day) - d3.median(P.filter(p => p.mode === a), p => p.km_per_day));
+  const lw = small ? 128 : 190, rowH = 26, m = { t: 8, b: 30 }, h = m.t + modes.length * rowH + m.b; const s = el("svg", { viewBox: `0 0 ${w} ${h}` }, document.getElementById("cSpeed"));
+  const X = d3.scaleLog().domain([2, 300]).range([lw, w - 14]);
+  [2, 5, 10, 20, 50, 100, 200].forEach(v => { el("line", { x1: X(v), x2: X(v), y1: m.t, y2: h - m.b, stroke: css("--rule") }, s); lbl(s, X(v), h - m.b + 15, v, "lab s m", "middle"); });
+  lbl(s, w - 14, h - 2, "km per day", "lab s m", "end");
+  modes.forEach((md, i) => { const y = m.t + i * rowH + rowH / 2; const t = lbl(s, lw - 8, y + 4, small && md.length > 18 ? md.replace(/ \(.*\)/, "").replace("Ponies, dogs, then man-hauling", "Ponies, then hauling").replace("Wagons, horses and camels", "Wagons and camels") : md, "lab s", "end");
+    P.filter(p => p.mode === md).forEach(p => { const c = el("circle", { cx: X(p.km_per_day), cy: y, r: 6, fill: css("--fg"), "fill-opacity": .78, stroke: css("--card"), "stroke-width": 1.5 }, s);
+      hover(c, `<b>${esc(p.name)}</b><br>${esc(p.frm)} to ${esc(p.to)}<br>${p.depart} to ${p.arrive}: ${p.days} days, ${fmt(p.km)} km<br><b>${p.km_per_day.toFixed(1)} km a day</b>`); }); });
+});
+// tables
+(() => { const t = document.getElementById("tCheck"); t.innerHTML = `<tr><th>Journey</th><th>What the article says</th><th class="num">Stated km</th><th class="num">Drawn km</th><th class="num">Ratio</th></tr>` +
+  R.stated_vs_drawn.map(x => `<tr><td>${esc(x.name)}</td><td>${esc(x.note)}<br><span style="color:var(--muted)">${esc(x.basis)}</span></td><td class="num">${fmt(x.stated)}</td><td class="num">${fmt(x.drawn)}</td><td class="num">${x.comparable ? Math.round(x.ratio * 100) + "%" : "not comparable"}</td></tr>`).join(""); })();
+(() => { const t = document.getElementById("tAll"); const rows = [...JJ].sort((a, b) => a.y0 - b.y0);
+  t.innerHTML = `<tr><th>Journey</th><th>When</th><th>Grade</th><th>Came back?</th><th class="num">Drawn km</th></tr>` + rows.map(j => `<tr class="clk" data-id="${j.id}" tabindex="0"><td>${esc(j.n)}</td><td>${esc(yearTxt(j.y0))}</td><td><span style="color:var(--${GV[j.g].slice(2)});font-weight:500">${j.g}</span></td><td>${RETL[j.r]}</td><td class="num">${fmt(j.km)}</td></tr>`).join("");
+  t.querySelectorAll("tr.clk").forEach(r => { const go = () => { select(r.dataset.id); document.getElementById("mapbox").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }; r.onclick = go; r.onkeydown = e => { if (e.key === "Enter") go(); }; }); })();
+(() => { const box = document.getElementById("mirrors"); box.innerHTML = D.M.map(m => `<div><b>${esc(BYID[m[0]].n)} ⇄ ${esc(BYID[m[1]].n)}</b>${esc(m[2])}<br><button class="btn" data-a="${m[0]}" data-b="${m[1]}">Show both on the map</button></div>`).join("");
+  box.querySelectorAll("button").forEach(b => b.onclick = () => { select(b.dataset.a, b.dataset.b); document.getElementById("mapbox").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }); })();
+
+function drawAll() { markers(); drawBase(); drawRoutes(); legendHtml(); if (state.sel) select(state.sel, state.also); }
+redraws.push(drawAll);
+new ResizeObserver(() => drawTimeline()).observe(document.getElementById("timeline"));
+drawAll();
+</script>
+</body>
+</html>
